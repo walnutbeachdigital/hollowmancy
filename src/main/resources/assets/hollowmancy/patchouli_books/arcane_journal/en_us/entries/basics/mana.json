@@ -1,0 +1,19 @@
+{
+  "name": "Mana and Casting",
+  "icon": "minecraft:amethyst_shard",
+  "category": "hollowmancy:basics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Once awakened, a $(#9b5de5)mana bar$() rests beside your hotbar. Mana slowly refills on its own.$(br2)You know one spell by instinct: $(l)Spark$().",
+      "title": "Mana and Casting"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(k:key.hollowmancy.cast_spell): cast your selected spell$(li)$(k:key.hollowmancy.cycle_spell): switch to your next known spell$(li)$(k:key.hollowmancy.open_spellbook): open your Spellbook$(br2)The Spellbook is where you learn new spells and choose which one to cast. Keys can be changed in Controls, under $(l)Hollowmancy$().",
+      "title": "Controls"
+    }
+  ],
+  "advancement": "hollowmancy:awakening"
+}

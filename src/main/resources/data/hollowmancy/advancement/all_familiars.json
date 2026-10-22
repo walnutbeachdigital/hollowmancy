@@ -1,0 +1,48 @@
+{
+  "parent": "hollowmancy:first_familiar",
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": "The Menagerie",
+    "description": "Bind every kind of familiar",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "owl": {
+      "trigger": "minecraft:impossible"
+    },
+    "wisp": {
+      "trigger": "minecraft:impossible"
+    },
+    "golem": {
+      "trigger": "minecraft:impossible"
+    },
+    "moth": {
+      "trigger": "minecraft:impossible"
+    },
+    "glimmerhorn": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "owl"
+    ],
+    [
+      "wisp"
+    ],
+    [
+      "golem"
+    ],
+    [
+      "moth"
+    ],
+    [
+      "glimmerhorn"
+    ]
+  ]
+}

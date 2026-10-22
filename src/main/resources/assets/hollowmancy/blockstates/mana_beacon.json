@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "hollowmancy:block/mana_beacon"
+    },
+    "active=true": {
+      "model": "hollowmancy:block/mana_beacon_active"
+    }
+  }
+}

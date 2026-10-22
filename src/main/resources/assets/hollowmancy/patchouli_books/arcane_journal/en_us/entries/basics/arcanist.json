@@ -1,0 +1,18 @@
+{
+  "name": "The Arcanist",
+  "icon": "hollowmancy:research_table",
+  "category": "hollowmancy:basics",
+  "sortnum": 5,
+  "advancement": "hollowmancy:awakening",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Arcanist",
+      "text": "You are not the only one who has heard the hum in the stone.$(br2)Place a $(l)Research Table$() near a village. An unemployed villager will claim it and become an $(l)Arcanist$(), in violet robes not unlike your own."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Arcanists value $(item)Dull Shards$() above all else. They will buy them for emeralds, and trade candles, books, amethyst, lapis and wool for them.$(br2)A seasoned Arcanist sells pieces of the $(l)Arcanist's Garb$(), a fresh copy of this journal, and, at the very highest level, the rarest thing of all: an $(item)Echo Shard$()."
+    }
+  ]
+}

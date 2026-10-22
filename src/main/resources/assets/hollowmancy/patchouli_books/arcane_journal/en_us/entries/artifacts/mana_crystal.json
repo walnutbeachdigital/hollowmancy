@@ -1,0 +1,40 @@
+{
+  "name": "Mana Crystal",
+  "icon": "hollowmancy:mana_crystal",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:mana_crystal",
+      "title": "Mana Crystal",
+      "text": "Holds up to $(l)200 mana$(). Sneak and right-click to store, right-click to draw.$(br2)$(l)Offering:$() Diamond$(br)$(l)Mana:$() 120$(br)$(l)Stage:$() Mastery"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Infusion: Mana Crystal",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "G": "hollowmancy:glimmerstone_ore",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "   G   ",
+            " M C M ",
+            "       ",
+            "GC 0 CG",
+            "       ",
+            " M C M ",
+            "   G   "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "As the Threshold, but with Glimmerstone Ore three out on each side."
+    }
+  ],
+  "advancement": "hollowmancy:mastery"
+}

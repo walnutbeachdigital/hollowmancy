@@ -1,0 +1,24 @@
+{
+  "parent": "hollowmancy:wand_grows",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:focus_wand"
+    },
+    "title": "Wand Master",
+    "description": "Raise a wand to its highest mastery",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mastered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "mastered"
+    ]
+  ]
+}

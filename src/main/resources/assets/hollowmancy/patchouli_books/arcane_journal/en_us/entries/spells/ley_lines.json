@@ -1,0 +1,24 @@
+{
+  "name": "Ley Lines",
+  "icon": "minecraft:amethyst_cluster",
+  "category": "hollowmancy:spells",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Ley Lines",
+      "text": "Beneath the Overworld run rivers of mana: $(l)ley lines$(). They are invisible, a few dozen blocks wide, and they wander for hundreds of blocks before they fade.$(br2)Every world's lines are different. Once found, a line never moves."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ley Sight",
+      "text": "A $(l)Divination$() spell, and the only way to see them.$(br2)For 15 seconds, glowing blue dust marks every line around you, and you sense how strong the current is where you stand, and where it runs strongest nearby.$(br2)Upgrades widen the search and lengthen the sight."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What They Give",
+      "text": "$(li)$(l)Rituals$() cost less mana when the altar stands on a line, up to half at its heart.$(li)$(l)Mana Batteries$() fill on their own, up to 2 mana a second.$(li)$(l)Mages$() standing in a strong current regenerate mana faster.$(br2)Build your workshop on a ley line."
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

@@ -1,0 +1,895 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "arcane_smooth": "hollowmancy:block/arc/arcane_smooth",
+  "arcane_stone": "hollowmancy:block/arc/arcane_stone",
+  "crystal_violet": "hollowmancy:block/arc/crystal_violet",
+  "dark_stone": "hollowmancy:block/arc/dark_stone",
+  "gold": "hollowmancy:block/arc/gold",
+  "rune_glow": "hollowmancy:block/arc/rune_glow",
+  "particle": "hollowmancy:block/arc/arcane_smooth"
+ },
+ "elements": [
+  {
+   "from": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "to": [
+    16.0,
+    2.0,
+    16.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.0,
+      14.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    },
+    "south": {
+     "uv": [
+      0.0,
+      14.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    },
+    "east": {
+     "uv": [
+      0.0,
+      14.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    },
+    "west": {
+     "uv": [
+      0.0,
+      14.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    },
+    "up": {
+     "uv": [
+      0.0,
+      0.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    },
+    "down": {
+     "uv": [
+      0.0,
+      0.0,
+      16.0,
+      16.0
+     ],
+     "texture": "#arcane_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "to": [
+    14.0,
+    4.0,
+    14.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      2.0,
+      12.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "south": {
+     "uv": [
+      2.0,
+      12.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "east": {
+     "uv": [
+      2.0,
+      12.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "west": {
+     "uv": [
+      2.0,
+      12.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "up": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "down": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#arcane_smooth"
+    }
+   }
+  },
+  {
+   "from": [
+    3.0,
+    4.0,
+    3.0
+   ],
+   "to": [
+    13.0,
+    5.0,
+    13.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      3.0,
+      11.0,
+      13.0,
+      12.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      3.0,
+      11.0,
+      13.0,
+      12.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      3.0,
+      11.0,
+      13.0,
+      12.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      3.0,
+      11.0,
+      13.0,
+      12.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      3.0,
+      3.0,
+      13.0,
+      13.0
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      3.0,
+      3.0,
+      13.0,
+      13.0
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    5.0,
+    5.0,
+    5.0
+   ],
+   "to": [
+    11.0,
+    10.0,
+    11.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      5.0,
+      6.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "south": {
+     "uv": [
+      5.0,
+      6.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "east": {
+     "uv": [
+      5.0,
+      6.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "west": {
+     "uv": [
+      5.0,
+      6.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "up": {
+     "uv": [
+      5.0,
+      5.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "down": {
+     "uv": [
+      5.0,
+      5.0,
+      11.0,
+      11.0
+     ],
+     "texture": "#dark_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    4.95,
+    5.5,
+    4.95
+   ],
+   "to": [
+    11.05,
+    9.5,
+    11.05
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.95,
+      6.5,
+      11.05,
+      10.5
+     ],
+     "texture": "#rune_glow",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "south": {
+     "uv": [
+      4.95,
+      6.5,
+      11.05,
+      10.5
+     ],
+     "texture": "#rune_glow",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "east": {
+     "uv": [
+      4.95,
+      6.5,
+      11.05,
+      10.5
+     ],
+     "texture": "#rune_glow",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "west": {
+     "uv": [
+      4.95,
+      6.5,
+      11.05,
+      10.5
+     ],
+     "texture": "#rune_glow",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    10.0,
+    3.5
+   ],
+   "to": [
+    12.5,
+    12.0,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      3.5,
+      4.0,
+      12.5,
+      6.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "south": {
+     "uv": [
+      3.5,
+      4.0,
+      12.5,
+      6.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "east": {
+     "uv": [
+      3.5,
+      4.0,
+      12.5,
+      6.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "west": {
+     "uv": [
+      3.5,
+      4.0,
+      12.5,
+      6.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "up": {
+     "uv": [
+      3.5,
+      3.5,
+      12.5,
+      12.5
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "down": {
+     "uv": [
+      3.5,
+      3.5,
+      12.5,
+      12.5
+     ],
+     "texture": "#arcane_smooth"
+    }
+   }
+  },
+  {
+   "from": [
+    6.0,
+    12.5,
+    6.0
+   ],
+   "to": [
+    10.0,
+    15.5,
+    10.0
+   ],
+   "rotation": {
+    "angle": 45,
+    "axis": "y",
+    "origin": [
+     8,
+     8,
+     8
+    ]
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      6.0,
+      0.5,
+      10.0,
+      3.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "south": {
+     "uv": [
+      6.0,
+      0.5,
+      10.0,
+      3.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "east": {
+     "uv": [
+      6.0,
+      0.5,
+      10.0,
+      3.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "west": {
+     "uv": [
+      6.0,
+      0.5,
+      10.0,
+      3.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "up": {
+     "uv": [
+      6.0,
+      6.0,
+      10.0,
+      10.0
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "down": {
+     "uv": [
+      6.0,
+      6.0,
+      10.0,
+      10.0
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    }
+   }
+  },
+  {
+   "from": [
+    7.0,
+    15.5,
+    7.0
+   ],
+   "to": [
+    9.0,
+    16.0,
+    9.0
+   ],
+   "rotation": {
+    "angle": 45,
+    "axis": "y",
+    "origin": [
+     8,
+     8,
+     8
+    ]
+   },
+   "faces": {
+    "north": {
+     "uv": [
+      7.0,
+      0.0,
+      9.0,
+      0.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "south": {
+     "uv": [
+      7.0,
+      0.0,
+      9.0,
+      0.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "east": {
+     "uv": [
+      7.0,
+      0.0,
+      9.0,
+      0.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "west": {
+     "uv": [
+      7.0,
+      0.0,
+      9.0,
+      0.5
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "up": {
+     "uv": [
+      7.0,
+      7.0,
+      9.0,
+      9.0
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    },
+    "down": {
+     "uv": [
+      7.0,
+      7.0,
+      9.0,
+      9.0
+     ],
+     "texture": "#crystal_violet",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    12.0,
+    3.5
+   ],
+   "to": [
+    5.0,
+    14.5,
+    5.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      3.5,
+      3.5,
+      5.0,
+      5.0
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      3.5,
+      11.0,
+      5.0,
+      12.5
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    11.0,
+    12.0,
+    3.5
+   ],
+   "to": [
+    12.5,
+    14.5,
+    5.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      11.0,
+      3.5,
+      12.5,
+      5.0
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      11.0,
+      11.0,
+      12.5,
+      12.5
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    3.5,
+    12.0,
+    11.0
+   ],
+   "to": [
+    5.0,
+    14.5,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      3.5,
+      11.0,
+      5.0,
+      12.5
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      3.5,
+      3.5,
+      5.0,
+      5.0
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    11.0,
+    12.0,
+    11.0
+   ],
+   "to": [
+    12.5,
+    14.5,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      3.5,
+      1.5,
+      5.0,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      11.0,
+      1.5,
+      12.5,
+      4.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      11.0,
+      11.0,
+      12.5,
+      12.5
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      11.0,
+      3.5,
+      12.5,
+      5.0
+     ],
+     "texture": "#gold"
+    }
+   }
+  }
+ ]
+}

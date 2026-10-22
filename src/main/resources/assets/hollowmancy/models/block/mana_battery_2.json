@@ -1,0 +1,738 @@
+{
+ "parent": "minecraft:block/block",
+ "render_type": "minecraft:cutout",
+ "textures": {
+  "arcane_smooth": "hollowmancy:block/arc/arcane_smooth",
+  "dark_stone": "hollowmancy:block/arc/dark_stone",
+  "glass_frame": "hollowmancy:block/arc/glass_frame",
+  "gold": "hollowmancy:block/arc/gold",
+  "mana_low": "hollowmancy:block/arc/mana_low",
+  "rune_glow": "hollowmancy:block/arc/rune_glow",
+  "rune_slab": "hollowmancy:block/arc/rune_slab",
+  "particle": "hollowmancy:block/arc/arcane_smooth"
+ },
+ "elements": [
+  {
+   "from": [
+    1.0,
+    0.0,
+    1.0
+   ],
+   "to": [
+    15.0,
+    2.0,
+    15.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      1.0,
+      14.0,
+      15.0,
+      16.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "south": {
+     "uv": [
+      1.0,
+      14.0,
+      15.0,
+      16.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "east": {
+     "uv": [
+      1.0,
+      14.0,
+      15.0,
+      16.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "west": {
+     "uv": [
+      1.0,
+      14.0,
+      15.0,
+      16.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "up": {
+     "uv": [
+      1.0,
+      1.0,
+      15.0,
+      15.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "down": {
+     "uv": [
+      1.0,
+      1.0,
+      15.0,
+      15.0
+     ],
+     "texture": "#arcane_smooth"
+    }
+   }
+  },
+  {
+   "from": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "to": [
+    14.0,
+    3.0,
+    14.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      2.0,
+      13.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      2.0,
+      13.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      2.0,
+      13.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      2.0,
+      13.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    2.0,
+    13.0,
+    2.0
+   ],
+   "to": [
+    14.0,
+    14.0,
+    14.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      3.0
+     ],
+     "texture": "#gold"
+    },
+    "south": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      3.0
+     ],
+     "texture": "#gold"
+    },
+    "east": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      3.0
+     ],
+     "texture": "#gold"
+    },
+    "west": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      3.0
+     ],
+     "texture": "#gold"
+    },
+    "up": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    },
+    "down": {
+     "uv": [
+      2.0,
+      2.0,
+      14.0,
+      14.0
+     ],
+     "texture": "#gold"
+    }
+   }
+  },
+  {
+   "from": [
+    1.0,
+    14.0,
+    1.0
+   ],
+   "to": [
+    15.0,
+    16.0,
+    15.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      1.0,
+      0.0,
+      15.0,
+      2.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "south": {
+     "uv": [
+      1.0,
+      0.0,
+      15.0,
+      2.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "east": {
+     "uv": [
+      1.0,
+      0.0,
+      15.0,
+      2.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "west": {
+     "uv": [
+      1.0,
+      0.0,
+      15.0,
+      2.0
+     ],
+     "texture": "#arcane_smooth"
+    },
+    "up": {
+     "uv": [
+      1.0,
+      1.0,
+      15.0,
+      15.0
+     ],
+     "texture": "#rune_slab"
+    },
+    "down": {
+     "uv": [
+      1.0,
+      1.0,
+      15.0,
+      15.0
+     ],
+     "texture": "#arcane_smooth"
+    }
+   }
+  },
+  {
+   "from": [
+    1.0,
+    14.0,
+    1.0
+   ],
+   "to": [
+    15.0,
+    16.01,
+    15.0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      1.0,
+      1.0,
+      15.0,
+      15.0
+     ],
+     "texture": "#rune_glow",
+     "neoforge_data": {
+      "block_light": 15,
+      "sky_light": 15
+     }
+    }
+   }
+  },
+  {
+   "from": [
+    1.5,
+    3.0,
+    1.5
+   ],
+   "to": [
+    4.0,
+    13.0,
+    4.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "south": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "east": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "west": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "up": {
+     "uv": [
+      1.5,
+      1.5,
+      4.0,
+      4.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "down": {
+     "uv": [
+      1.5,
+      12.0,
+      4.0,
+      14.5
+     ],
+     "texture": "#dark_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    12.0,
+    3.0,
+    1.5
+   ],
+   "to": [
+    14.5,
+    13.0,
+    4.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "south": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "east": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "west": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "up": {
+     "uv": [
+      12.0,
+      1.5,
+      14.5,
+      4.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "down": {
+     "uv": [
+      12.0,
+      12.0,
+      14.5,
+      14.5
+     ],
+     "texture": "#dark_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    1.5,
+    3.0,
+    12.0
+   ],
+   "to": [
+    4.0,
+    13.0,
+    14.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "south": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "east": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "west": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "up": {
+     "uv": [
+      1.5,
+      12.0,
+      4.0,
+      14.5
+     ],
+     "texture": "#dark_stone"
+    },
+    "down": {
+     "uv": [
+      1.5,
+      1.5,
+      4.0,
+      4.0
+     ],
+     "texture": "#dark_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    12.0,
+    3.0,
+    12.0
+   ],
+   "to": [
+    14.5,
+    13.0,
+    14.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "south": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "east": {
+     "uv": [
+      1.5,
+      3.0,
+      4.0,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "west": {
+     "uv": [
+      12.0,
+      3.0,
+      14.5,
+      13.0
+     ],
+     "texture": "#dark_stone"
+    },
+    "up": {
+     "uv": [
+      12.0,
+      12.0,
+      14.5,
+      14.5
+     ],
+     "texture": "#dark_stone"
+    },
+    "down": {
+     "uv": [
+      12.0,
+      1.5,
+      14.5,
+      4.0
+     ],
+     "texture": "#dark_stone"
+    }
+   }
+  },
+  {
+   "from": [
+    4.0,
+    3.0,
+    2.6
+   ],
+   "to": [
+    12.0,
+    13.0,
+    2.9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    },
+    "south": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    }
+   }
+  },
+  {
+   "from": [
+    4.0,
+    3.0,
+    13.1
+   ],
+   "to": [
+    12.0,
+    13.0,
+    13.4
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    },
+    "south": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    }
+   }
+  },
+  {
+   "from": [
+    2.6,
+    3.0,
+    4.0
+   ],
+   "to": [
+    2.9,
+    13.0,
+    12.0
+   ],
+   "faces": {
+    "east": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    },
+    "west": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    }
+   }
+  },
+  {
+   "from": [
+    13.1,
+    3.0,
+    4.0
+   ],
+   "to": [
+    13.4,
+    13.0,
+    12.0
+   ],
+   "faces": {
+    "east": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    },
+    "west": {
+     "uv": [
+      4.0,
+      3.0,
+      12.0,
+      13.0
+     ],
+     "texture": "#glass_frame"
+    }
+   }
+  },
+  {
+   "from": [
+    4.5,
+    3.0,
+    4.5
+   ],
+   "to": [
+    11.5,
+    3.2,
+    11.5
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      4.5,
+      4.5,
+      11.5,
+      11.5
+     ],
+     "texture": "#mana_low"
+    }
+   }
+  }
+ ]
+}

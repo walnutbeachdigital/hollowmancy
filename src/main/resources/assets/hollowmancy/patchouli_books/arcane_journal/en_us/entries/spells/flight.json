@@ -1,0 +1,18 @@
+{
+  "name": "Soar",
+  "icon": "minecraft:feather",
+  "category": "hollowmancy:spells",
+  "sortnum": 4,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Soar",
+      "text": "The last gift of the Elemental school: the wind itself, gathered beneath you.$(br2)Cast $(l)Soar$() (20 mana), then $(l)double-tap jump$() to rise. While you fly, it drains $(l)3 mana every second$(). Standing or walking costs nothing.$(br2)Cast it again to fold your wings."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If your mana runs dry in the air, the wind lets you down gently: you drift to the ground under $(l)Slow Falling$().$(br2)$(l)Soar II$() drains 2 mana a second.$(br)$(l)Soar III$() drains 1, and you fly faster.$(br2)$(o)Keep an eye on your mana bar. The sky is wide, and the ground is far.$()"
+    }
+  ]
+}

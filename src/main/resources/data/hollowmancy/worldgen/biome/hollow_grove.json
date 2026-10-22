@@ -1,0 +1,94 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 3813212,
+    "water_color": 4005966,
+    "water_fog_color": 3813212,
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.006
+    },
+    "music": {
+      "sound": "hollowmancy:music.hollow_grove",
+      "min_delay": 1200,
+      "max_delay": 6000,
+      "replace_current_music": true
+    },
+    "ambient_sound": "hollowmancy:ambient.grove_rustle"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "hollowmancy:hollow_shade",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "hollowmancy:glimmerhorn",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "hollowmancy:wisp",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "hollowmancy:crystal_moth",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "hollowmancy:hollow_hills",
+      "hollowmancy:castle_clearing"
+    ],
+    [
+      "hollowmancy:mirror_shore"
+    ],
+    [
+      "hollowmancy:hollow_grass_patch"
+    ],
+    [],
+    [],
+    [],
+    [
+      "hollowmancy:glimmerstone_ore_end",
+      "hollowmancy:voidstone_ore_sparse"
+    ],
+    [],
+    [],
+    [
+      "hollowmancy:hollow_tree"
+    ],
+    []
+  ],
+  "creature_spawn_probability": 0.07
+}

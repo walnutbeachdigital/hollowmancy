@@ -1,0 +1,35 @@
+{
+  "parent": "hollowmancy:item/archmage_staff_3d",
+  "overrides": [
+    {
+      "predicate": {
+        "hollowmancy:mastery": 0.2
+      },
+      "model": "hollowmancy:item/archmage_staff_3d_mastery1"
+    },
+    {
+      "predicate": {
+        "hollowmancy:mastery": 0.4
+      },
+      "model": "hollowmancy:item/archmage_staff_3d_mastery2"
+    },
+    {
+      "predicate": {
+        "hollowmancy:mastery": 0.6
+      },
+      "model": "hollowmancy:item/archmage_staff_3d_mastery3"
+    },
+    {
+      "predicate": {
+        "hollowmancy:mastery": 0.8
+      },
+      "model": "hollowmancy:item/archmage_staff_3d_mastery4"
+    },
+    {
+      "predicate": {
+        "hollowmancy:mastery": 1.0
+      },
+      "model": "hollowmancy:item/archmage_staff_3d_mastery5"
+    }
+  ]
+}

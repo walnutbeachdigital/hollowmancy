@@ -1,0 +1,34 @@
+{
+  "name": "Mana Engines",
+  "icon": "hollowmancy:verdant_engine",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 21,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mana Engines",
+      "text": "Engines do magic on their own, so long as something feeds them. Connect them to a $(l)Mana Battery$() with conduits, or place them right beside one. Their tops glow while they have power to work.$(br2)Right-click an engine to see what it is doing."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:verdant_engine",
+      "title": "Verdant Engine",
+      "text": "Every five seconds it urges up to six plants within $(l)4 blocks$() to grow, as Verdant Growth would. It only spends mana (4 per pulse) when something actually grows.$(br2)Crops, saplings and flowers all answer it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:verdant_engine"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:research_engine",
+      "title": "Research Engine",
+      "text": "Feed it $(item)Dull Shards$(): right-click with them, or point a hopper into it. Every 30 seconds it studies $(l)4 shards$() with $(l)25 mana$() and records a point of Knowledge, up to 20.$(br2)Right-click with an empty hand to take what it has learned."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:research_engine"
+    }
+  ]
+}

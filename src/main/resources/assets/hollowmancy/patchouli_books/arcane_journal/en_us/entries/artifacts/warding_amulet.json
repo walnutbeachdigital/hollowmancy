@@ -1,0 +1,37 @@
+{
+  "name": "Warding Amulet",
+  "icon": "hollowmancy:warding_amulet",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:warding_amulet",
+      "title": "Warding Amulet",
+      "text": "Kept anywhere in your inventory, it turns aside $(l)30%$() of incoming harm, paid for with mana.$(br2)$(l)Offering:$() Gold Ingot$(br)$(l)Mana:$() 80$(br)$(l)Stage:$() Arcane Arts"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Infusion: Warding Amulet",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "O": "minecraft:obsidian"
+        },
+        "pattern": [
+          [
+            "O C O",
+            "     ",
+            "C 0 C",
+            "     ",
+            "O C O"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Lit candles on each side, Obsidian on each diagonal."
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

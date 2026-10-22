@@ -1,0 +1,31 @@
+{
+  "name": "Mana Engineering",
+  "icon": "hollowmancy:mana_battery",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 20,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mana Engineering",
+      "text": "Mana need not live only in you. Bound in metal and amethyst, it can be stored, carried and spent by the world itself.$(br2)A $(l)Mana Battery$() holds 2000 mana. $(l)Right-click$() it to open it: store or draw mana in tens, fifties, or all at once. Sneak and right-click to pour in 50 without opening it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Place a $(item)Mana Crystal$() in the battery's $(l)Charge$() slot and the battery fills it; place one in the $(l)Drain$() slot and the battery empties it. A comparator reads how full the battery is.$(br2)$(o)Break a battery and its mana spills away, though any crystals inside are kept. Empty it first.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Mana Conduits$() carry mana between blocks. They join to any neighbouring conduit, battery or lantern automatically.$(br2)A $(l)Warding Lantern$() draws mana through conduits (or straight from a battery beside it). While lit, it stops monsters from appearing within $(l)24 blocks$(). It sips one point of mana every three seconds.$(br2)Lanterns do not stop monster spawners."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:mana_battery",
+      "recipe2": "hollowmancy:mana_conduit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:warding_lantern"
+    }
+  ]
+}

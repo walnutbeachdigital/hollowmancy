@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "hollowmancy:wisp_essence"
+    },
+    {
+      "item": "hollowmancy:moth_dust"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:mana_tonic",
+    "count": 1
+  }
+}

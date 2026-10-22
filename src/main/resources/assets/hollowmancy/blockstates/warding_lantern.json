@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "hollowmancy:block/warding_lantern"
+    },
+    "lit=false": {
+      "model": "hollowmancy:block/warding_lantern_off"
+    }
+  }
+}

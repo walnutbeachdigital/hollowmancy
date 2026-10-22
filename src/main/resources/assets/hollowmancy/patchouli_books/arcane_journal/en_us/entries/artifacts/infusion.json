@@ -1,0 +1,14 @@
+{
+  "name": "Infusion",
+  "icon": "hollowmancy:ritual_altar",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Some offerings are not consumed but $(l)reforged$(). Perform an infusion at the Ritual Altar and the artifact appears atop it.$(br2)Your $(l)first infusion$() proves your $(l)Mastery$().",
+      "title": "Infusion"
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

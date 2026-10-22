@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hollowmancy:hollow_observatory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "hollowmancy:config_spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 77120461
+  }
+}

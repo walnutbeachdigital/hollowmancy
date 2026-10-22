@@ -1,0 +1,28 @@
+{
+  "name": "The Mana Beacon",
+  "icon": "hollowmancy:mana_beacon",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 22,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Mana Beacon",
+      "text": "A beacon that burns mana instead of a pyramid. Feed it from a $(l)Mana Battery$() (by conduits, or placed beside one) and it blesses every player within $(l)24 blocks$().$(br2)A light rises from it while it works. Right-click with an empty hand to see what it's doing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:mana_beacon"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Choosing a Blessing",
+      "text": "Right-click the beacon with an item to tune it. The item is $(l)not$() used up.$(li)$(item)Sugar$(): Swiftness$(li)$(item)Gold Ingot$(): Haste$(li)$(item)Iron Ingot$(): Resistance$(li)$(item)Rabbit's Foot$(): Leaping$(li)$(item)Golden Carrot$(): Night Vision$(li)$(item)Ghast Tear$(): Regeneration$(li)$(item)Amethyst Shard$(): $(#9b5de5)Wellspring$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Costs",
+      "text": "Every 4 seconds it spends $(l)3 mana per player$() in range, and nothing at all when no one is near.$(br2)$(#9b5de5)Wellspring$() pours mana straight into nearby mages instead: 2 mana every 4 seconds, on top of their own regeneration."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Landmarks of the Hollow",
+  "icon": "minecraft:spyglass",
+  "category": "hollowmancy:hollow",
+  "sortnum": 7,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Observatories",
+      "text": "Round towers of pale brick under a dark glass dome, on the open Hollow and in the Crystal Barrens. Someone watched the sky here.$(br2)A study below, star charts above, and at the top a copper telescope aimed through a slit in the dome, with the best of their finds beside it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Sunken Library",
+      "text": "A long hall of prismarine on the floor of the Mirror Sea, its roof fallen in. The shelves are drowned but the chests at the far end are not empty: enchanted books, pages worth Knowledge, and runes for spell crafting.$(br2)Bring a way to breathe. A $(l)Tidebound Charm$() or $(l)Lurkerscale Leggings$() will do."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ruins",
+      "text": "The Hollow is scattered with what's left of older builders: a broken archway, a ring of fallen pillars around a cold altar, and stairs leading down into small buried vaults.$(br2)Most hold a chest of materials and supplies. The vaults are easy to walk past; look for low walls framing a gap in the ground."
+    }
+  ]
+}

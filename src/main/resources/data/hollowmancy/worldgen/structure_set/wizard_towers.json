@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "hollowmancy:wizard_tower",
+      "weight": 3
+    },
+    {
+      "structure": "hollowmancy:wizard_tower_fire",
+      "weight": 2
+    },
+    {
+      "structure": "hollowmancy:wizard_tower_frost",
+      "weight": 2
+    },
+    {
+      "structure": "hollowmancy:wizard_tower_void",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 14,
+    "salt": 51870342
+  }
+}

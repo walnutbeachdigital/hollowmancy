@@ -1,0 +1,25 @@
+{
+  "name": "Vael's Last Words",
+  "icon": "hollowmancy:sovereign_crown",
+  "category": "hollowmancy:hollow",
+  "sortnum": 21,
+  "advancement": "hollowmancy:sovereign",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)As he fell, the vastness went out of him, and for a moment he was only a man in a crown, very tired.$(br2)\"I held it for them,\" he said, \"because no one should hold it alone. Now no one has to.\"$()",
+      "title": "Vael's Last Words"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:sovereign_crown",
+      "title": "The Sovereign's Crown",
+      "text": "Kept anywhere in your inventory:$(li)Corruption can no longer $(l)harm$() you. It still gathers, and still matters, but the whispers, the darkness and the withering are silenced.$(li)Your mana returns $(l)twice$() as fast."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This is the final secret of the Hollow, and of this journal: corruption was never a wall. It was a weight. Vael proved it could be carried.$(br2)Carry it well.$(br2)$(o)- the last of the Circle$()"
+    }
+  ]
+}

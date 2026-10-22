@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "GMG",
+    "ARA",
+    "III"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "M": {
+      "item": "hollowmancy:mana_crystal"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "R": {
+      "item": "hollowmancy:ritual_altar"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:infuser",
+    "count": 1
+  }
+}

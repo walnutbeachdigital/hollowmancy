@@ -1,0 +1,29 @@
+{
+  "name": "Schools of Magic",
+  "icon": "minecraft:enchanted_book",
+  "category": "hollowmancy:spells",
+  "sortnum": 1,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After the Threshold, three schools open to you. Each must be unlocked in the Spellbook for $(l)5 Knowledge$() before its spells can be learned.$(br2)Every school holds three spells. The third is beyond reach until you achieve $(l)Mastery$().",
+      "title": "Schools of Magic"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Firebolt$() (20 mana, 4 K)$(br)A bolt of flame that sets things alight.$(br2)$(l)Frost Nova$() (35 mana, 5 K)$(br)Killing cold freezes and slows all creatures within 5 blocks.$(br2)$(l)Stormcall$() (60 mana, 7 K, Mastery)$(br)True lightning strikes wherever you look, up to 32 blocks away.",
+      "title": "Elemental"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Aegis$() (35 mana, 4 K)$(br)Resistance and Absorption for 15 seconds.$(br2)$(l)Repel$() (25 mana, 5 K)$(br)A shockwave hurls every creature within 6 blocks away.$(br2)$(l)Sanctuary$() (70 mana, 7 K, Mastery)$(br)You and nearby players regenerate and resist fire; nearby enemies are weakened.",
+      "title": "Warding"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Reveal$() (30 mana, 4 K)$(br)Every creature within 24 blocks glows through walls.$(br2)$(l)Dowsing$() (25 mana, 5 K)$(br)Sense the nearest ore within 12 blocks, and which way it lies.$(br2)$(l)Recall$() (80 mana, 7 K, Mastery)$(br)Return to your bed or spawn point from anywhere, even another dimension.",
+      "title": "Divination"
+    }
+  ]
+}

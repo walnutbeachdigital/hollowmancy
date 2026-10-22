@@ -1,0 +1,106 @@
+{
+  "name": "After the Silence",
+  "icon": "hollowmancy:archmage_staff",
+  "category": "hollowmancy:hollow",
+  "sortnum": 10,
+  "advancement": "hollowmancy:archmage",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "After the Silence",
+      "text": "The Listener is gone, and you are an $(l)Archmage$(). That is not the end of what magic can do.$(br2)$(li)An $(l)aura$() in your school's colour$(li)$(l)Legendary forms$() of six signature spells$(li)The $(l)Echo of the Listener$(), to fight again$(li)The $(l)Archmage's Staff$(), which grows with you"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Aura",
+      "text": "Motes of light circle every Archmage. Their colour follows the school of the last spell you cast: violet for General, ember for Elemental, blue for Warding, gold for Divination, green for Nature, deep purple for Forbidden.$(br2)Type $(l)/hollowmancy aura$() to hide or show yours."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Legendary Forms",
+      "text": "Raise a school's signature spell to $(l)tier IV$() and, as an Archmage, it becomes legendary:$(br2)$(li)$(l)Spark$(): Storm Crown. Lightning leaps to 4 more enemies.$(li)$(l)Firebolt$(): Phoenix Volley. A second, wider wave of fire.$(li)$(l)Aegis$(): Bastion. Every ally within 8 blocks is warded too."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Reveal$(): All-Seeing. Every revealed enemy is Marked and takes 25% more damage.$(li)$(l)Wellspring$(): Font of Life. Regeneration II for every friend within 10 blocks, and poison cleared.$(li)$(l)Void Lance$(): Singularity. Where the lance ends, a rift drags enemies in for 3 seconds."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:silent_seal",
+      "title": "Silent Seal",
+      "text": "Every Archmage is given one. Offer it at the Unmaking circle, in the Hollow, to call the $(l)Echo of the Listener$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Echoes",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "O": "minecraft:crying_obsidian",
+          "M": "minecraft:amethyst_block",
+          "V": "hollowmancy:voidstone_ore",
+          "G": "minecraft:gold_block"
+        },
+        "pattern": [
+          [
+            "    G    ",
+            " V  M  V ",
+            "  O C O  ",
+            "         ",
+            "GMC 0 CMG",
+            "         ",
+            "  O C O  ",
+            " V  M  V ",
+            "    G    "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "The same circle as the Unmaking. Archmage, 400 mana, a Silent Seal."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Echo",
+      "text": "What the Listener left behind, and worse: twice its strength, harder armour, heavier blows. It calls $(l)Hollow Shades$() to its side the whole fight, faster as it weakens.$(br2)Silence it and it drops an $(l)Echo Heart$() and a new Silent Seal, so you can call it again."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:echo_heart",
+      "title": "Echo Heart",
+      "text": "Still faintly listening. Infuse it to make the Archmage's Staff."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Infusion: Archmage's Staff",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "A": "minecraft:amethyst_block",
+          "G": "minecraft:gold_block",
+          "O": "minecraft:crying_obsidian"
+        },
+        "pattern": [
+          [
+            "O  G  O",
+            " A C A ",
+            "       ",
+            "GC 0 CG",
+            "       ",
+            " A C A ",
+            "O  G  O"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Archmage, 400 mana. Offer an Echo Heart."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:archmage_staff",
+      "title": "Archmage's Staff",
+      "text": "The finest focus: spells cost $(l)40% less$(), gather half the corruption and recharge 10% faster. Like any wand it grows with use, five times."
+    }
+  ]
+}

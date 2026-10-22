@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "hollowmancy:block/verdant_engine"
+    },
+    "active=true": {
+      "model": "hollowmancy:block/verdant_engine_active"
+    }
+  }
+}

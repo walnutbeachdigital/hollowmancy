@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "hollowmancy:lurker_scale"
+  },
+  "base": {
+    "item": "hollowmancy:arcanist_leggings"
+  },
+  "addition": {
+    "item": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "id": "hollowmancy:lurkerscale_leggings",
+    "count": 1
+  }
+}

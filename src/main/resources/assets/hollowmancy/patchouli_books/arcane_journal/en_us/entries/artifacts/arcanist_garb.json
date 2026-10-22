@@ -1,0 +1,29 @@
+{
+  "name": "Arcanist's Garb",
+  "icon": "hollowmancy:arcanist_hood",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 10,
+  "advancement": "hollowmancy:awakening",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Arcanist's Garb",
+      "text": "Steel is for those who fight. Cloth woven with shard-thread is for those who $(l)cast$().$(br2)Each piece is lighter than iron, and each lends its own gift:$(li)$(l)Hood$(): spells cost 10% less mana$(li)$(l)Robe$(): Forbidden spells leave 25% less corruption$(li)$(l)Leggings$(): mana returns 50% faster$(li)$(l)Boots$(): channeled spells charge 25% faster"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Full Garb",
+      "text": "Wear all four pieces together and the threads begin to resonate:$(li)Spell cooldowns are $(l)15% shorter$()$(li)Corruption fades $(l)three times$() as fast$(br2)The garb can be repaired with purple wool, and takes enchantments well."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:arcanist_hood",
+      "recipe2": "hollowmancy:arcanist_robe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:arcanist_leggings",
+      "recipe2": "hollowmancy:arcanist_boots"
+    }
+  ]
+}

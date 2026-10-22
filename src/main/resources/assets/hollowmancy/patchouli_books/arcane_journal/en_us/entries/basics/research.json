@@ -1,0 +1,19 @@
+{
+  "name": "The Research Table",
+  "icon": "hollowmancy:research_table",
+  "category": "hollowmancy:basics",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Awakening is not understanding. To truly learn, you must $(l)study$().$(br2)At a Research Table, offer $(l)4 Dull Shards$() and $(l)50 mana$() to gain $(l)2 Knowledge$(). Your first study makes you an $(l)Apprentice$().",
+      "title": "The Research Table"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:research_table",
+      "text": "Knowledge is spent in the Spellbook to learn spells and open schools of magic."
+    }
+  ],
+  "advancement": "hollowmancy:awakening"
+}

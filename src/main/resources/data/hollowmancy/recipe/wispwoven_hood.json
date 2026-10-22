@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "hollowmancy:wisp_essence"
+  },
+  "base": {
+    "item": "hollowmancy:arcanist_hood"
+  },
+  "addition": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "id": "hollowmancy:wispwoven_hood",
+    "count": 1
+  }
+}

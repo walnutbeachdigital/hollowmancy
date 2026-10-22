@@ -1,0 +1,18 @@
+{
+  "name": "Spell Combos",
+  "icon": "minecraft:ice",
+  "category": "hollowmancy:spells",
+  "sortnum": 3,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Spell Combos",
+      "text": "Spells remember each other. Cast them in the right order and they become more than the sum of their parts.$(br2)$(l)Shatter$(): strike a creature chilled by $(l)Frost Nova$() with $(l)Spark$() or $(l)Void Lance$() within five seconds. Double damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Thermal Shock$(): burn a chilled creature with $(l)Firebolt$(). Three more hearts of damage.$(br2)$(l)Slam$(): $(l)Repel$() a creature into a wall. It is stunned for three seconds.$(br2)$(l)Exposed$(): a creature made to glow by $(l)Reveal$() takes a quarter more damage from all magic."
+    }
+  ]
+}

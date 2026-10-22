@@ -1,0 +1,36 @@
+{
+  "name": "Ritual of Deepening",
+  "icon": "hollowmancy:dull_shard",
+  "category": "hollowmancy:rituals",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Offering:$() Dull Shard$(br)$(l)Mana:$() 60$(br)$(l)Stage:$() Apprentice$(br2)Widens your well: $(l)+25 maximum mana$(), up to 300.",
+      "title": "Ritual of Deepening"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Deepening",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M C M",
+            "     ",
+            "C 0 C",
+            "     ",
+            "M C M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Lit candles on each side, Amethyst Blocks on each diagonal."
+    }
+  ],
+  "advancement": "hollowmancy:apprentice"
+}

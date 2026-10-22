@@ -1,0 +1,22 @@
+# Build output and Gradle caches (rebuilt by ./gradlew build)
+.gradle/
+build/
+out/
+
+# The test client: worlds, logs, screenshots, options
+run/
+runs/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Release kits (the jar is uploaded, not committed)
+release/
+
+# macOS
+.DS_Store
+
+# Working notes from the translation pass
+hollowmancy_untranslated.txt

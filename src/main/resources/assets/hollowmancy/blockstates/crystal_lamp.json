@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "hollowmancy:block/crystal_lamp"
+    },
+    "hanging=true": {
+      "model": "hollowmancy:block/crystal_lamp",
+      "x": 180
+    }
+  }
+}

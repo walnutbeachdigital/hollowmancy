@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hollowmancy:hollow_vault",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "hollowmancy:config_spread",
+    "spacing": 26,
+    "separation": 9,
+    "salt": 93017725
+  }
+}

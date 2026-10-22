@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "LL",
+    "LL"
+  ],
+  "key": {
+    "L": {
+      "item": "hollowmancy:stripped_hollow_log"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:stripped_hollow_wood",
+    "count": 3
+  },
+  "group": "bark"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IAI",
+    "ACA",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "hollowmancy:mana_crystal"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:mana_battery",
+    "count": 1
+  }
+}

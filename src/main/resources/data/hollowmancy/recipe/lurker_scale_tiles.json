@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SP",
+    "PS"
+  ],
+  "key": {
+    "S": {
+      "item": "hollowmancy:lurker_scale"
+    },
+    "P": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:lurker_scale_tiles",
+    "count": 4
+  }
+}

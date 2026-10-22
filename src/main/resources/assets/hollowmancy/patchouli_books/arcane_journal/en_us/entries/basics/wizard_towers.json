@@ -1,0 +1,26 @@
+{
+  "name": "Wizard Towers",
+  "icon": "hollowmancy:torn_page",
+  "category": "hollowmancy:basics",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Not every mage went to the Hollow. Some stayed, and built towers in the quiet places of the world. Four kinds still stand, and the land tells you which you'll find.$(br2)The ones who live in them do not want visitors.",
+      "title": "Wizard Towers"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Arcane$(): stone and a blue roof, in forests, taiga, plains and meadows. Arcane and fire bolts, Frost Nova, and a hex that lifts you into the air.$(br2)$(#e06020)$(l)Fire$()$(): red brick and an orange roof, in savanna, desert and badlands. Everything burns. Scorch weakens you from afar. Blaze rods in the study."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(#70c8f0)$(l)Frost$()$(): white stone and ice, in snowy plains, taiga, ice spikes and groves. Ice Shards freeze you, and Frostbind roots you in place. Diamonds in the study.$(br2)$(#9b30d0)$(l)Void$()$(): obsidian and blackstone, in dark forests, swamps and old spruce woods. Void Lances corrupt, and the Rift drags you to its side. Ender eyes in the study."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:torn_page",
+      "text": "Every tower's wizard and chests hold $(l)Torn Spellbook Pages$(): right-click to study one for $(l)3 Knowledge$(). Any awakened mage can read them."
+    }
+  ]
+}

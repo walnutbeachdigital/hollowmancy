@@ -1,0 +1,40 @@
+{
+  "name": "Spell Crafting",
+  "icon": "hollowmancy:inscribed_scroll",
+  "category": "hollowmancy:spells",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The spells in this journal were made by someone. So can yours be.$(br2)A spell is three things: a $(l)shape$(), an $(l)element$(), and, if you like, a $(l)modifier$(). Carve each into a rune, bind the runes to a scroll, and read it.",
+      "title": "Spell Crafting"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:rune_stone",
+      "recipe2": "hollowmancy:blank_scroll",
+      "text": "Rune Stones take a mark; Blank Scrolls take the spell."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Combine a $(l)Rune Stone$() with:$(li)$(l)Shapes$(): Arrow for $(l)Bolt$(), Gunpowder for $(l)Nova$(), End Rod for $(l)Beam$()$(li)$(l)Elements$(): Blaze Powder for $(l)Fire$(), Packed Ice for $(l)Frost$(), a Void Shard for $(l)Void$()$(li)$(l)Modifiers$(): Prismarine Crystals for $(l)Splitting$(), a Compass for $(l)Seeking$(), a Slime Ball for $(l)Lingering$()",
+      "title": "The Runes"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In a crafting grid, place a $(l)Blank Scroll$(), one shape rune, one element rune, and (if you like) one modifier rune. Out comes a $(l)Scroll$() of your spell.$(br2)Right-click it to learn it for good: $(l)3 Knowledge$(), or $(l)5$() with a modifier. Requires $(l)the Arcane Arts$().$(br2)Your spells join the wheel under their element's school: Fire and Frost under $(l)Elemental$(), Void under $(l)Forbidden$().",
+      "title": "Inscribing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Bolt$(): flies where you aim. Cheapest, quickest.$(li)$(l)Nova$(): bursts all around you.$(li)$(l)Beam$(): pierces everything in a line.$(br2)$(li)$(l)Fire$() burns. $(l)Frost$() slows and chills. $(l)Void$() hits hardest and weakens, but corrupts you a little.",
+      "title": "Shapes and Elements"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Splitting$(): three bolts or beams in a fan, or a nova that bursts twice$(li)$(l)Seeking$(): bolts curve toward the nearest enemy; a nova bursts on it; a beam aims itself$(li)$(l)Lingering$(): leaves the ground burning with its element for a few seconds$(br2)Crafted spells never hurt you, other players, or your pets. 36 spells in all: find your favorite.",
+      "title": "Modifiers"
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

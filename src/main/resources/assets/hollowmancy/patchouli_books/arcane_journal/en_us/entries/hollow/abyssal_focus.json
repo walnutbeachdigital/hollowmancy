@@ -1,0 +1,40 @@
+{
+  "name": "Abyssal Focus",
+  "icon": "hollowmancy:abyssal_focus",
+  "category": "hollowmancy:hollow",
+  "sortnum": 2,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:abyssal_focus",
+      "title": "Abyssal Focus",
+      "text": "Your Focus Wand, drowned in the void. Spells cost $(l)35% less$() mana, and Forbidden spells leave only $(l)half$() their corruption.$(br2)$(l)Offering:$() Focus Wand$(br)$(l)Mana:$() 150$(br)$(l)Stage:$() Ascension"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Infusion: Abyssal Focus",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "X": "minecraft:crying_obsidian",
+          "V": "hollowmancy:voidstone_ore"
+        },
+        "pattern": [
+          [
+            "   V   ",
+            " X C X ",
+            "       ",
+            "VC 0 CV",
+            "       ",
+            " X C X ",
+            "   V   "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, Crying Obsidian on each diagonal, and Voidstone Ore three out on each side."
+    }
+  ]
+}

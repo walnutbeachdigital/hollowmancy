@@ -1,0 +1,60 @@
+{
+  "name": "Hollow Familiars",
+  "icon": "minecraft:spore_blossom",
+  "category": "hollowmancy:hollow",
+  "sortnum": 11,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Hollow Familiars",
+      "text": "Two of the Hollow's gentler creatures will bind to a mage, if asked where they live.$(br2)The circle is the usual $(l)Ritual of Binding$(), but it only works $(l)in the Hollow$(), at Ascension, for 120 mana. Like any familiar, a new one sends the old one home, and every bond is remembered."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Hollow Binding",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M C M",
+            "     ",
+            "C 0 C",
+            "     ",
+            "M C M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "In the Hollow. Offer a Spore Blossom or Glow Berries."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:crystal_moth",
+      "scale": 1.6,
+      "name": "Crystal Moth",
+      "text": "$(l)Spore Blossom.$() It flutters ahead of you."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Crystal Moth",
+      "text": "$(li)In the dark it leaves $(l)light behind you$(), a glow every few steps that fades after 30 seconds, longer each level$(li)Now and then it $(l)picks a flower$() nearby and brings it to you, more often each level (a setting turns this off)$(li)Level 5: its dust $(l)slows your falls$()"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:glimmerhorn",
+      "scale": 0.8,
+      "name": "Glimmerhorn",
+      "text": "$(l)Glow Berries.$() A mount that follows you."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Glimmerhorn",
+      "text": "$(li)$(l)Right-click to ride$(). It goes where you look, faster than sprinting, faster each level$(li)It steps up whole blocks without jumping; from level 3, a block and a half$(li)Level 4: its horns $(l)light the way$(): Night Vision while you ride$(br2)Sneak to climb off. Sneak and right-click to release it."
+    }
+  ]
+}

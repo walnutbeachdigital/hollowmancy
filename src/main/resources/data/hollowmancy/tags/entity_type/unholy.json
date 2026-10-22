@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:undead",
+    "hollowmancy:hollow_cultist",
+    "hollowmancy:hollow_sovereign"
+  ]
+}

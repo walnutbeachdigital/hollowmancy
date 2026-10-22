@@ -1,0 +1,83 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 9414856,
+    "water_color": 14215423,
+    "water_fog_color": 10467552,
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.rare",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:glow"
+      },
+      "probability": 0.002
+    },
+    "music": {
+      "sound": "hollowmancy:music.mirror_sea",
+      "min_delay": 1200,
+      "max_delay": 6000,
+      "replace_current_music": true
+    },
+    "ambient_sound": "hollowmancy:ambient.sea_lap"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "hollowmancy:mirror_lurker",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [],
+    "water_ambient": [
+      {
+        "type": "hollowmancy:mirror_minnow",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      }
+    ],
+    "ambient": [
+      {
+        "type": "hollowmancy:wisp",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "hollowmancy:glimmerstone_ore_end",
+      "hollowmancy:voidstone_ore_sparse"
+    ],
+    [],
+    [],
+    [
+      "hollowmancy:crystal_spire"
+    ],
+    [
+      "hollowmancy:mirror_sea"
+    ]
+  ]
+}

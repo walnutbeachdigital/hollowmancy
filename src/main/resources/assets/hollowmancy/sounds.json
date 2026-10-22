@@ -1,0 +1,339 @@
+{
+ "spell.cast.general": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/general1",
+   "hollowmancy:spell/cast/general2",
+   "hollowmancy:spell/cast/general3"
+  ]
+ },
+ "spell.cast.elemental": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/elemental1",
+   "hollowmancy:spell/cast/elemental2",
+   "hollowmancy:spell/cast/elemental3"
+  ]
+ },
+ "spell.cast.warding": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/warding1",
+   "hollowmancy:spell/cast/warding2",
+   "hollowmancy:spell/cast/warding3"
+  ]
+ },
+ "spell.cast.divination": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/divination1",
+   "hollowmancy:spell/cast/divination2",
+   "hollowmancy:spell/cast/divination3"
+  ]
+ },
+ "spell.cast.nature": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/nature1",
+   "hollowmancy:spell/cast/nature2",
+   "hollowmancy:spell/cast/nature3"
+  ]
+ },
+ "spell.cast.forbidden": {
+  "subtitle": "subtitles.hollowmancy.spell.cast",
+  "sounds": [
+   "hollowmancy:spell/cast/forbidden1",
+   "hollowmancy:spell/cast/forbidden2",
+   "hollowmancy:spell/cast/forbidden3"
+  ]
+ },
+ "spell.fizzle": {
+  "subtitle": "subtitles.hollowmancy.spell.fizzle",
+  "sounds": [
+   "hollowmancy:spell/fizzle"
+  ]
+ },
+ "spell.learn": {
+  "subtitle": "subtitles.hollowmancy.spell.learn",
+  "sounds": [
+   "hollowmancy:spell/learn"
+  ]
+ },
+ "spell.tier_up": {
+  "subtitle": "subtitles.hollowmancy.spell.tier_up",
+  "sounds": [
+   "hollowmancy:spell/tier_up"
+  ]
+ },
+ "spell.legendary": {
+  "subtitle": "subtitles.hollowmancy.spell.legendary",
+  "sounds": [
+   "hollowmancy:spell/legendary"
+  ]
+ },
+ "listener.ambient": {
+  "subtitle": "subtitles.hollowmancy.listener.ambient",
+  "sounds": [
+   "hollowmancy:listener/ambient1",
+   "hollowmancy:listener/ambient2",
+   "hollowmancy:listener/ambient3"
+  ]
+ },
+ "listener.hurt": {
+  "subtitle": "subtitles.hollowmancy.listener.hurt",
+  "sounds": [
+   "hollowmancy:listener/hurt1",
+   "hollowmancy:listener/hurt2"
+  ]
+ },
+ "listener.death": {
+  "subtitle": "subtitles.hollowmancy.listener.death",
+  "sounds": [
+   "hollowmancy:listener/death"
+  ]
+ },
+ "listener.speak": {
+  "subtitle": "subtitles.hollowmancy.listener.speak",
+  "sounds": [
+   "hollowmancy:listener/speak"
+  ]
+ },
+ "listener.roar": {
+  "subtitle": "subtitles.hollowmancy.listener.roar",
+  "sounds": [
+   "hollowmancy:listener/roar"
+  ]
+ },
+ "listener.summon": {
+  "subtitle": "subtitles.hollowmancy.listener.summon",
+  "sounds": [
+   "hollowmancy:listener/summon"
+  ]
+ },
+ "wisp.ambient": {
+  "subtitle": "subtitles.hollowmancy.wisp.ambient",
+  "sounds": [
+   "hollowmancy:wisp/ambient1",
+   "hollowmancy:wisp/ambient2",
+   "hollowmancy:wisp/ambient3"
+  ]
+ },
+ "wisp.hurt": {
+  "subtitle": "subtitles.hollowmancy.wisp.hurt",
+  "sounds": [
+   "hollowmancy:wisp/hurt"
+  ]
+ },
+ "wisp.death": {
+  "subtitle": "subtitles.hollowmancy.wisp.death",
+  "sounds": [
+   "hollowmancy:wisp/death"
+  ]
+ },
+ "crystal_moth.ambient": {
+  "subtitle": "subtitles.hollowmancy.crystal_moth.ambient",
+  "sounds": [
+   "hollowmancy:crystal_moth/ambient1",
+   "hollowmancy:crystal_moth/ambient2",
+   "hollowmancy:crystal_moth/ambient3"
+  ]
+ },
+ "crystal_moth.hurt": {
+  "subtitle": "subtitles.hollowmancy.crystal_moth.hurt",
+  "sounds": [
+   "hollowmancy:crystal_moth/hurt"
+  ]
+ },
+ "crystal_moth.death": {
+  "subtitle": "subtitles.hollowmancy.crystal_moth.death",
+  "sounds": [
+   "hollowmancy:crystal_moth/death"
+  ]
+ },
+ "glimmerhorn.ambient": {
+  "subtitle": "subtitles.hollowmancy.glimmerhorn.ambient",
+  "sounds": [
+   "hollowmancy:glimmerhorn/ambient1",
+   "hollowmancy:glimmerhorn/ambient2",
+   "hollowmancy:glimmerhorn/ambient3"
+  ]
+ },
+ "glimmerhorn.hurt": {
+  "subtitle": "subtitles.hollowmancy.glimmerhorn.hurt",
+  "sounds": [
+   "hollowmancy:glimmerhorn/hurt"
+  ]
+ },
+ "glimmerhorn.death": {
+  "subtitle": "subtitles.hollowmancy.glimmerhorn.death",
+  "sounds": [
+   "hollowmancy:glimmerhorn/death"
+  ]
+ },
+ "hollow_shade.ambient": {
+  "subtitle": "subtitles.hollowmancy.hollow_shade.ambient",
+  "sounds": [
+   "hollowmancy:hollow_shade/ambient1",
+   "hollowmancy:hollow_shade/ambient2",
+   "hollowmancy:hollow_shade/ambient3"
+  ]
+ },
+ "hollow_shade.hurt": {
+  "subtitle": "subtitles.hollowmancy.hollow_shade.hurt",
+  "sounds": [
+   "hollowmancy:hollow_shade/hurt"
+  ]
+ },
+ "hollow_shade.death": {
+  "subtitle": "subtitles.hollowmancy.hollow_shade.death",
+  "sounds": [
+   "hollowmancy:hollow_shade/death"
+  ]
+ },
+ "hollow_shade.blink": {
+  "subtitle": "subtitles.hollowmancy.hollow_shade.blink",
+  "sounds": [
+   "hollowmancy:hollow_shade/blink"
+  ]
+ },
+ "shardling.ambient": {
+  "subtitle": "subtitles.hollowmancy.shardling.ambient",
+  "sounds": [
+   "hollowmancy:shardling/ambient1",
+   "hollowmancy:shardling/ambient2",
+   "hollowmancy:shardling/ambient3"
+  ]
+ },
+ "shardling.hurt": {
+  "subtitle": "subtitles.hollowmancy.shardling.hurt",
+  "sounds": [
+   "hollowmancy:shardling/hurt"
+  ]
+ },
+ "shardling.death": {
+  "subtitle": "subtitles.hollowmancy.shardling.death",
+  "sounds": [
+   "hollowmancy:shardling/death"
+  ]
+ },
+ "shardling.step": {
+  "subtitle": "subtitles.hollowmancy.shardling.step",
+  "sounds": [
+   "hollowmancy:shardling/step1",
+   "hollowmancy:shardling/step2",
+   "hollowmancy:shardling/step3"
+  ]
+ },
+ "mirror_lurker.ambient": {
+  "subtitle": "subtitles.hollowmancy.mirror_lurker.ambient",
+  "sounds": [
+   "hollowmancy:mirror_lurker/ambient1",
+   "hollowmancy:mirror_lurker/ambient2",
+   "hollowmancy:mirror_lurker/ambient3"
+  ]
+ },
+ "mirror_lurker.hurt": {
+  "subtitle": "subtitles.hollowmancy.mirror_lurker.hurt",
+  "sounds": [
+   "hollowmancy:mirror_lurker/hurt"
+  ]
+ },
+ "mirror_lurker.death": {
+  "subtitle": "subtitles.hollowmancy.mirror_lurker.death",
+  "sounds": [
+   "hollowmancy:mirror_lurker/death"
+  ]
+ },
+ "battery.charge": {
+  "subtitle": "subtitles.hollowmancy.battery.charge",
+  "sounds": [
+   "hollowmancy:battery/charge"
+  ]
+ },
+ "battery.drain": {
+  "subtitle": "subtitles.hollowmancy.battery.drain",
+  "sounds": [
+   "hollowmancy:battery/drain"
+  ]
+ },
+ "music.hollow": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/hollow",
+    "stream": true
+   }
+  ]
+ },
+ "music.crystal_barrens": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/crystal_barrens",
+    "stream": true
+   }
+  ]
+ },
+ "music.hollow_grove": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/hollow_grove",
+    "stream": true
+   }
+  ]
+ },
+ "music.mirror_sea": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/mirror_sea",
+    "stream": true
+   }
+  ]
+ },
+ "music.revenant_isle": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/revenant_isle",
+    "stream": true
+   }
+  ]
+ },
+ "music.hollow_depths": {
+  "sounds": [
+   {
+    "name": "hollowmancy:music/hollow_depths",
+    "stream": true
+   }
+  ]
+ },
+ "ambient.void_wind": {
+  "sounds": [
+   {
+    "name": "hollowmancy:ambient/void_wind",
+    "stream": true
+   }
+  ]
+ },
+ "ambient.crystal_hum": {
+  "sounds": [
+   {
+    "name": "hollowmancy:ambient/crystal_hum",
+    "stream": true
+   }
+  ]
+ },
+ "ambient.grove_rustle": {
+  "sounds": [
+   {
+    "name": "hollowmancy:ambient/grove_rustle",
+    "stream": true
+   }
+  ]
+ },
+ "ambient.sea_lap": {
+  "sounds": [
+   {
+    "name": "hollowmancy:ambient/sea_lap",
+    "stream": true
+   }
+  ]
+ }
+}

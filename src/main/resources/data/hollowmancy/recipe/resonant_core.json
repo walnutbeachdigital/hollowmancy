@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AGA",
+    "GDG",
+    "AGA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "G": {
+      "item": "hollowmancy:glimmerstone_ore"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:resonant_core",
+    "count": 1
+  }
+}

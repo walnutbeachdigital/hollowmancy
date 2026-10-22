@@ -1,0 +1,141 @@
+{
+  "name": "Fusions",
+  "icon": "hollowmancy:warded_robe",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 12,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Fusions",
+      "text": "An infusion reforges one thing. A $(l)fusion$() binds two.$(br2)Offer the first item at the altar as usual, but hold the second in your $(l)other hand$(). Both are consumed, and what rises from the altar keeps the first item's enchantments, wear and stored mana.$(br2)Fused garb still counts toward the full $(l)Arcanist's Garb$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:warded_robe",
+      "title": "Warded Robe",
+      "text": "The Arcanist's Robe and the Warding Amulet, made one. While worn, it turns aside $(l)30%$() of harm, paid for in mana.$(br2)$(l)Offer:$() Arcanist's Robe$(br)$(l)Other hand:$() Warding Amulet$(br)$(l)Mana:$() 120"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Fusion: Warded Robe",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "O": "minecraft:obsidian",
+          "L": "minecraft:lapis_block"
+        },
+        "pattern": [
+          [
+            "   L   ",
+            " O C O ",
+            "       ",
+            "LC 0 CL",
+            "       ",
+            " O C O ",
+            "   L   "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, Obsidian on each diagonal, Lapis Blocks three out on each side."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:crowned_hood",
+      "title": "Crowned Hood",
+      "text": "Vael's crown, sewn into your hood. While worn, corruption $(l)cannot harm you$() and your mana returns $(l)twice as fast$().$(br2)$(l)Offer:$() Arcanist's Hood$(br)$(l)Other hand:$() The Sovereign's Crown$(br)$(l)Mana:$() 200"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Fusion: Crowned Hood",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "X": "minecraft:crying_obsidian",
+          "V": "hollowmancy:voidstone_ore",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M  V  M",
+            " X C X ",
+            "       ",
+            "VC 0 CV",
+            "       ",
+            " X C X ",
+            "M  V  M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, Crying Obsidian on each diagonal, Voidstone three out on each side, Amethyst Blocks three out on each diagonal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:wellspring_wand",
+      "title": "Wellspring Wand",
+      "text": "A Focus Wand with a Mana Crystal for a heart. It holds $(l)300 mana$() of its own and spends that first. Sneak and right-click to pour your mana in, or charge it in a Mana Battery.$(br2)$(l)Offer:$() Mana Crystal$(br)$(l)Other hand:$() Focus Wand$(br)$(l)Mana:$() 150"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Fusion: Wellspring Wand",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block",
+          "G": "hollowmancy:glimmerstone_ore",
+          "L": "minecraft:lapis_block"
+        },
+        "pattern": [
+          [
+            "L  G  L",
+            " M C M ",
+            "       ",
+            "GC 0 CG",
+            "       ",
+            " M C M ",
+            "L  G  L"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, Amethyst on each diagonal, Glimmerstone three out on each side, Lapis three out on each diagonal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:skystrider_boots",
+      "title": "Skystrider Boots",
+      "text": "Soar, bound into leather. While worn, $(l)double-tap jump$() to fly, spending 2 mana each second in the air. No spell needed.$(br2)$(l)Offer:$() Arcanist's Boots$(br)$(l)Other hand:$() Phantom Membrane$(br)$(l)Mana:$() 200$(br)You must know $(l)Soar$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Fusion: Skystrider Boots",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block",
+          "L": "minecraft:lapis_block",
+          "G": "hollowmancy:glimmerstone_ore"
+        },
+        "pattern": [
+          [
+            "G  L  G",
+            " M C M ",
+            "       ",
+            "LC 0 CL",
+            "       ",
+            " M C M ",
+            "G  L  G"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, Amethyst on each diagonal, Lapis three out on each side, Glimmerstone three out on each diagonal."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "hollowmancy:the_hollow",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:end",
+    "biome_source": {
+      "type": "hollowmancy:hollow",
+      "biomes": [
+        "hollowmancy:the_hollow",
+        "hollowmancy:crystal_barrens",
+        "hollowmancy:hollow_grove",
+        "hollowmancy:mirror_sea",
+        "hollowmancy:hollow_depths"
+      ],
+      "cell_size": 288
+    }
+  }
+}

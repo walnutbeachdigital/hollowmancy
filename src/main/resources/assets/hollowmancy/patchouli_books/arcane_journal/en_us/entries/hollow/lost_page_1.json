@@ -1,0 +1,15 @@
+{
+  "name": "The First Fragment",
+  "icon": "hollowmancy:lost_page",
+  "category": "hollowmancy:hollow",
+  "sortnum": 11,
+  "advancement": "hollowmancy:lost_page_1",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)...we were not the first to find the Hollow. We were only the first to stay.$(br2)Seven of us crossed the veil together. We called ourselves the $(l)Circle$(), and we believed the silence here was emptiness.$(br2)It was not empty. It was listening.$()",
+      "title": "The First Fragment"
+    }
+  ]
+}

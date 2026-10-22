@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hollowmancy:sovereign_sigil"
+    },
+    {
+      "item": "hollowmancy:colossus_heart"
+    },
+    {
+      "item": "hollowmancy:morvanes_oath"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:seal_of_unmaking",
+    "count": 1
+  }
+}

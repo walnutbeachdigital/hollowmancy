@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "hollowmancy:block/portcullis"
+    },
+    "open=true": {
+      "model": "hollowmancy:block/portcullis_open"
+    }
+  }
+}

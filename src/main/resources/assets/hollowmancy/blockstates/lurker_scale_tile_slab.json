@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hollowmancy:block/lurker_scale_tile_slab"
+    },
+    "type=top": {
+      "model": "hollowmancy:block/lurker_scale_tile_slab_top"
+    },
+    "type=double": {
+      "model": "hollowmancy:block/lurker_scale_tiles"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Ritual of the Threshold",
+  "icon": "minecraft:amethyst_shard",
+  "category": "hollowmancy:rituals",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Offering:$() Amethyst Shard$(br)$(l)Mana:$() 100$(br)$(l)Cost:$() 10 Knowledge$(br)$(l)Stage:$() Apprentice$(br2)Cross into $(l)The Arcane Arts$() and open the schools of magic.",
+      "title": "Ritual of the Threshold"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of the Threshold",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "L": "minecraft:lapis_block",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "   L   ",
+            " M C M ",
+            "       ",
+            "LC 0 CL",
+            "       ",
+            " M C M ",
+            "   L   "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles and Amethyst as in Deepening, plus Lapis Blocks three out on each side."
+    }
+  ],
+  "advancement": "hollowmancy:apprentice"
+}

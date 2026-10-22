@@ -1,0 +1,22 @@
+{
+  "name": "The Awakening",
+  "icon": "hollowmancy:dull_shard",
+  "category": "hollowmancy:basics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Deep in the stone, between the surface and the deepslate, there is an ore that glows faintly: $(l)Glimmerstone$(). Mine it with at least a stone pickaxe and it yields $(item)Dull Shards$().$(br2)They seem useless. They are not.",
+      "title": "The Awakening"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:dull_shard",
+      "text": "The shard hums when the sky grows dark.$(br2)Stand beneath an open sky during a $(l)thunderstorm$() with a shard in hand. Wait. The storm will find you. Rain works (storms are faster)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When it does, the shard is consumed and something in you wakes. You will feel a reservoir of $(l)mana$() that was always there.$(br2)You are no longer Mundane."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Forbidden Magic",
+  "icon": "minecraft:echo_shard",
+  "category": "hollowmancy:spells",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Only the Ascended may open the $(#b0263f)$(l)Forbidden$() school (10 Knowledge). Its spells are powerful, and every casting adds $(#b0263f)corruption$().$(br2)Corruption fades slowly, about one point a minute.",
+      "title": "Forbidden Magic"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Void Lance$() (40 mana, +6): a long beam dealing 6 hearts.$(br2)$(l)Siphon$() (30 mana, +5): drain life from every creature within 6 blocks.$(br2)$(l)Veil Step$() (80 mana, +10): tear into $(l)the Hollow$(), a lightless realm of floating stone, and back again."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)25+$(): whispers$(li)$(l)50+$(): darkness$(li)$(l)75+$(): withering and hunger$(br2)The $(l)Ritual of Cleansing$() can draw the worst of it out.",
+      "title": "Corruption"
+    }
+  ],
+  "advancement": "hollowmancy:ascension"
+}

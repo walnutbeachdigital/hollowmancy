@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "hollowmancy:hollow_logs"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:hollow_planks",
+    "count": 4
+  }
+}

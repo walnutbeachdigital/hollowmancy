@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "hollowmancy:block/infuser"
+    },
+    "active=true": {
+      "model": "hollowmancy:block/infuser_active"
+    }
+  }
+}

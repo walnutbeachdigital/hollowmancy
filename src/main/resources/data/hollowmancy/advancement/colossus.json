@@ -1,0 +1,24 @@
+{
+  "parent": "hollowmancy:ascension",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:resonant_prism"
+    },
+    "title": "Silence the Song",
+    "description": "Shatter the Amethyst Colossus",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "defeated": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "defeated"
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "The Ruined Towers",
+  "icon": "minecraft:end_stone_bricks",
+  "category": "hollowmancy:hollow",
+  "sortnum": 3,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ruined towers drift among the Hollow's islands, each on its own crumbling shard of stone. Someone built them. Someone lived in them.$(br2)Their chests still hold supplies, and $(l)Lost Pages$(): fragments of a journal much like this one.",
+      "title": "The Ruined Towers"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:lost_page",
+      "text": "Right-click a Lost Page to read it. Each one you piece together is copied into this journal and grants $(l)5 Knowledge$(). Pages are always read in order."
+    }
+  ]
+}

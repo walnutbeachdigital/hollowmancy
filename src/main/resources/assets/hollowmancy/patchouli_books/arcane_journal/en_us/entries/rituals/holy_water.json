@@ -1,0 +1,27 @@
+{
+  "name": "Holy Water",
+  "icon": "hollowmancy:holy_water",
+  "category": "hollowmancy:rituals",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Holy Water",
+      "text": "The Ritual of Cleansing is a cure for the ascended. For everyone else, there is $(l)Holy Water$().$(br2)Drinking a bottle removes $(l)15 corruption$() and lifts the darkness. The body can only take so much purity at once: you must wait $(l)30 seconds$() between bottles."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:holy_water",
+      "text": "Three bottles at a time. The bucket is returned."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Splash Holy Water",
+      "text": "Add gunpowder and it can be thrown.$(br2)The splash burns the $(l)undead$() and the servants of the Hollow (Cultists, and the Sovereign himself) for heavy damage, and lifts $(l)8 corruption$() from every player it touches, the thrower included."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:splash_holy_water"
+    }
+  ]
+}

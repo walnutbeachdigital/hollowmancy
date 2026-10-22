@@ -1,0 +1,49 @@
+{
+  "name": "Hollow Charms",
+  "icon": "hollowmancy:wispbound_charm",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 30,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A charm is a creature's material, infused. Each works from $(l)anywhere in your inventory$().$(br2)All are infusions at the $(l)Ritual Altar$() (or in an Infuser), with lit candles 2 out on each side and the blocks below 2 out on each diagonal. Each needs Ascension."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:wispbound_charm",
+      "title": "Wispbound Charm",
+      "text": "Your mana regenerates faster.$(br2)$(l)Offer:$() Wisp Essence$(br)$(l)Diagonals:$() Amethyst Blocks$(br)$(l)Mana:$() 120"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:mothwing_charm",
+      "title": "Mothwing Charm",
+      "text": "You drift down instead of falling. Hold Sneak to drop.$(br2)$(l)Offer:$() Moth Wing Dust$(br)$(l)Diagonals:$() Glowstone$(br)$(l)Mana:$() 120"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:huntsman_charm",
+      "title": "Huntsman's Charm",
+      "text": "Hostile creatures near you glow, and magic strikes glowing foes harder.$(br2)$(l)Offer:$() Antler Shard$(br)$(l)Diagonals:$() Amethyst Blocks$(br)$(l)Also:$() Glimmerstone Ore 3 out on each side$(br)$(l)Mana:$() 140"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:shadeweave_charm",
+      "title": "Shadeweave Charm",
+      "text": "Below 30% health you vanish for five seconds and enemies lose you. Once a minute.$(br2)$(l)Offer:$() Shade Cloth$(br)$(l)Diagonals:$() Crying Obsidian$(br)$(l)Also:$() Voidstone Ore 3 out on each side$(br)$(l)Mana:$() 160"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:tidebound_charm",
+      "title": "Tidebound Charm",
+      "text": "Breathe and swim freely underwater.$(br2)$(l)Offer:$() Lurker Scale$(br)$(l)Diagonals:$() Prismarine$(br)$(l)Mana:$() 120"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:mana_tonic",
+      "title": "Mana Tonic",
+      "text": "Drink to restore 120 mana. The bottle is returned."
+    }
+  ]
+}

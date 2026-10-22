@@ -1,0 +1,19 @@
+{
+  "name": "Rogue Casters",
+  "icon": "minecraft:book",
+  "category": "hollowmancy:basics",
+  "sortnum": 6,
+  "advancement": "hollowmancy:awakening",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Rogue Apprentices",
+      "text": "Not everyone who wakes to magic finds a teacher. Some wander the night alone, half-trained and dangerous.$(br2)$(l)Rogue Apprentices$() keep their distance and throw $(l)Sparks$(). Get close and they answer with $(l)Frost Nova$(); hurt them badly and they $(l)Blink$() away.$(br2)Their pockets hold Dull Shards, and if you are awakened, their notes are worth $(l)a point of Knowledge$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hollow Cultists",
+      "text": "Something in the Hollow still has followers.$(br2)$(l)Hollow Cultists$() hurl $(l)Void Lances$() that leave corruption behind, and call $(l)shades$() to fight for them.$(br2)They carry Void Shards, and very rarely, a $(item)Lost Page$() taken from the towers.$(br2)$(o)Warding magic was made for moments like these.$()"
+    }
+  ]
+}

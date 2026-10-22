@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "NNN",
+    "NWN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+      "item": "hollowmancy:wisp_essence"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:wisp_lantern",
+    "count": 2
+  }
+}

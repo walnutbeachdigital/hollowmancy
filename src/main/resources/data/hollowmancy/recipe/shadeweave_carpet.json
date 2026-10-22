@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "hollowmancy:shadeweave"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:shadeweave_carpet",
+    "count": 3
+  }
+}

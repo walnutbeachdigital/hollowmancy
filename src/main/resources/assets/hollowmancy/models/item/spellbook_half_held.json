@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "hollowmancy:item/spellbook_half"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "hollowmancy:item/spellbook_icon"
+    }
+  }
+}

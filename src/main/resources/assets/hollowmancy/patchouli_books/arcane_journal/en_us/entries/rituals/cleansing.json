@@ -1,0 +1,36 @@
+{
+  "name": "Ritual of Cleansing",
+  "icon": "minecraft:golden_apple",
+  "category": "hollowmancy:rituals",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Offering:$() Golden Apple$(br)$(l)Mana:$() 60$(br)$(l)Stage:$() Ascension$(br2)Removes $(l)50 corruption$() and lifts its afflictions.",
+      "title": "Ritual of Cleansing"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Cleansing",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M C M",
+            "     ",
+            "C 0 C",
+            "     ",
+            "M C M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "The same pattern as the Ritual of Deepening."
+    }
+  ],
+  "advancement": "hollowmancy:ascension"
+}

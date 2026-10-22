@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hollowmancy:block/hollow_log",
+    "side": "hollowmancy:block/hollow_log"
+  }
+}

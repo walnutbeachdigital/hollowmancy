@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "P  ",
+    "PP ",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "hollowmancy:hollow_planks"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:hollow_stairs",
+    "count": 4
+  },
+  "group": "wooden_stairs"
+}

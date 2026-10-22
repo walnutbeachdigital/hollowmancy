@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hollowmancy:rune_stone"
+    },
+    {
+      "item": "hollowmancy:void_shard"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:void_rune",
+    "count": 1
+  }
+}

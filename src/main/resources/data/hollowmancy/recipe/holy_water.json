@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "hollowmancy:dull_shard"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:holy_water",
+    "count": 3
+  }
+}

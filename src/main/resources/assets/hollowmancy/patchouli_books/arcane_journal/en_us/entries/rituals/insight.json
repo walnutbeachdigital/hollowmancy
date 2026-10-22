@@ -1,0 +1,35 @@
+{
+  "name": "Ritual of Insight",
+  "icon": "minecraft:book",
+  "category": "hollowmancy:rituals",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Offering:$() Book$(br)$(l)Mana:$() 40$(br)$(l)Stage:$() Apprentice$(br2)Burns a book into understanding: $(l)+3 Knowledge$().",
+      "title": "Ritual of Insight"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Insight",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]"
+        },
+        "pattern": [
+          [
+            "  C  ",
+            "     ",
+            "C 0 C",
+            "     ",
+            "  C  "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Four lit candles, two blocks out on each side."
+    }
+  ],
+  "advancement": "hollowmancy:apprentice"
+}

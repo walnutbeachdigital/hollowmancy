@@ -1,0 +1,37 @@
+{
+  "name": "The Mirror Sea",
+  "icon": "minecraft:sea_lantern",
+  "category": "hollowmancy:hollow",
+  "sortnum": 6,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Somewhere in the Hollow the void fills with water: a still, silver sea, its shores white with calcite, with islands rising out of it like teeth.$(br2)Look down. Every island is there twice.",
+      "title": "The Mirror Sea"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Beneath the surface hangs each island's $(l)reflection$(): its stone, its crystal spires, upside-down and perfectly real.$(br2)The sea holds you up. While you are in its water you can $(l)breathe$(), and see, as if a conduit burned beside you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ruins lie on the sea bed: a colonnade, a sunken library, a drowned gate. Their chests hold Torn and Lost Pages, and now and then a $(l)Tome of Reflection$().$(li)$(l)Mirror Lurkers$() hunt anyone who swims.",
+      "title": "What Lies Below"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In the deepest places stands an $(l)Abyssal Shrine$(): a ring of prismarine pillars around a dais. Its keeper is the $(l)Leviathan$().$(br2)Its $(l)song$() silences the sea: no Conduit Power anywhere near it, and your arms grow heavy. $(l)Watch your air$(), or bring something to breathe with.",
+      "title": "The Leviathan"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Its gaze is a burning $(l)laser$(), faster once it is hurt$(li)Its $(l)undertow$() drags swimmers to its jaws$(li)Its $(l)tidal slam$() crushes anything close$(li)Wounded, it calls the $(l)Mirror Lurkers$() to fight$(br2)It drops the Tome of Reflection, and a Heart of the Sea."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:tome_of_reflection",
+      "text": "$(l)Reflect$() (Warding, Mastery): arrows, fireballs and tridents bounce back at whoever threw them, and half of any spell cast at you returns to its caster. It can't be learned by study, only from this tome."
+    }
+  ]
+}

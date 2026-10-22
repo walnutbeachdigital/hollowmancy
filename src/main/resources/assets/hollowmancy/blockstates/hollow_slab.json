@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hollowmancy:block/hollow_slab"
+    },
+    "type=top": {
+      "model": "hollowmancy:block/hollow_slab_top"
+    },
+    "type=double": {
+      "model": "hollowmancy:block/hollow_planks"
+    }
+  }
+}

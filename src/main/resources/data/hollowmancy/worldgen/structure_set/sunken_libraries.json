@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hollowmancy:sunken_library",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "hollowmancy:config_spread",
+    "spacing": 34,
+    "separation": 14,
+    "salt": 41180923
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Focus Wand",
+  "icon": "hollowmancy:focus_wand",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:focus_wand",
+      "title": "Focus Wand",
+      "text": "Held in your main hand, spells cost $(l)25% less$() mana. Right-click to cast your selected spell.$(br2)$(l)Offering:$() Blaze Rod$(br)$(l)Mana:$() 80$(br)$(l)Stage:$() Arcane Arts"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Infusion: Focus Wand",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M C M",
+            "     ",
+            "C 0 C",
+            "     ",
+            "M C M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Lit candles on each side, Amethyst Blocks on each diagonal."
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

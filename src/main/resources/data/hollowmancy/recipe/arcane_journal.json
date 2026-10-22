@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "hollowmancy:dull_shard"
+    }
+  ],
+  "result": {
+    "id": "patchouli:guide_book",
+    "count": 1,
+    "components": {
+      "patchouli:book": "hollowmancy:arcane_journal"
+    }
+  }
+}

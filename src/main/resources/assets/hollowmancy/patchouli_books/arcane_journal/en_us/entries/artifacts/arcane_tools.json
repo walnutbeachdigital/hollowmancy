@@ -1,0 +1,49 @@
+{
+  "name": "Arcane Tools",
+  "icon": "hollowmancy:arcane_pickaxe",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Arcane Tools",
+      "text": "A diamond tool, infused, learns to reach further than its edge.$(br2)The $(l)Arcane Pickaxe$() and $(l)Arcane Shovel$() dig a 3x3 square. The $(l)Arcane Axe$() fells a whole tree in one swing.$(br2)Each extra block costs $(l)1 mana$(). $(l)Sneak$() to dig a single block for free."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Tool Infusion",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block",
+          "G": "hollowmancy:glimmerstone_ore"
+        },
+        "pattern": [
+          [
+            "   G   ",
+            " M C M ",
+            "       ",
+            "GC 0 CG",
+            "       ",
+            " M C M ",
+            "   G   "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "The same pattern for all three tools. Offer the diamond tool, with $(l)100 mana$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Notes",
+      "text": "$(li)Enchantments are not carried over. Infuse a plain tool and enchant it afterwards.$(li)The pickaxe won't break blocks much harder than the one you hit, so no free obsidian.$(li)Chests, furnaces and other storage are never caught in the square.$(li)The axe only fells logs that touch natural leaves, so your log cabin is safe.$(li)Repair them with $(l)Mana Crystals$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:arcane_pickaxe,hollowmancy:arcane_shovel,hollowmancy:arcane_axe",
+      "text": "Diamond-strength, and more durable than diamond."
+    }
+  ],
+  "advancement": "hollowmancy:arcane_arts"
+}

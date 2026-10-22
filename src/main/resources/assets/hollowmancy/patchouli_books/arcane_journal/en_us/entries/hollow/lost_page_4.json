@@ -1,0 +1,19 @@
+{
+  "name": "The Final Fragment",
+  "icon": "hollowmancy:lost_page",
+  "category": "hollowmancy:hollow",
+  "sortnum": 14,
+  "advancement": "hollowmancy:lost_page_4",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)...if you are reading this, you have walked as far as we did.$(br2)What Vael became we call the $(l)Hollow Sovereign$(). He sleeps, but sleep is not peace.$()",
+      "title": "The Final Fragment"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(o)He can be woken. An altar raised here, in the Hollow, ringed in the black stone and lit with candles. Offer him a heart made of his own stone.$(br2)Do not do this unless you mean to end him.$(br2)We could not.$()"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Snare and Mark",
+  "icon": "hollowmancy:focus_wand",
+  "category": "hollowmancy:spells",
+  "sortnum": 3,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Bramble Snare",
+      "text": "$(l)Nature$(). Thorned vines lash out at the creature you look at and bind it: it cannot move for three seconds, and the thorns tear at it.$(br2)$(l)II:$() the vines catch everything within 3 blocks of your target.$(br)$(l)III:$() longer, harder, and poisoned."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hunter's Mark",
+      "text": "$(l)Divination$(). Mark what you look at. It glows, cannot turn invisible, and takes $(l)30%$() more damage from everything for ten seconds.$(br2)A glowing creature is also $(l)Exposed$(): magic strikes it harder still. A $(l)Huntsman's Charm$() keeps everything near you glowing, too.$(br2)$(l)II:$() 15 s, 40%. $(l)III:$() 20 s, 50%."
+    }
+  ]
+}

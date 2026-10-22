@@ -1,0 +1,38 @@
+{
+  "name": "Hollow Craft",
+  "icon": "hollowmancy:wisp_lantern",
+  "category": "hollowmancy:hollow",
+  "sortnum": 9,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "What the Hollow's creatures leave behind is not only for magic. A builder can make a home of it: lamps of living crystal, lanterns with a wisp caught inside, dark woven cloth, and the silver scales of the Lurkers laid as tiles."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:crystal_lamp",
+      "text": "A crystal cluster that glows as bright as glowstone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:wisp_lantern",
+      "text": "Hangs from a ceiling or stands on the floor, like any lantern."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:shadeweave",
+      "text": "Woven Shade Cloth, soft and dark."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:shadeweave_carpet",
+      "text": "For floors that don't echo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:lurker_scale_tiles",
+      "text": "Silver scale tiles. Slabs and stairs are made the usual way."
+    }
+  ]
+}

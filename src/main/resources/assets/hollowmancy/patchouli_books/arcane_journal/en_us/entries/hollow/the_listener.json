@@ -1,0 +1,62 @@
+{
+  "name": "The Listener",
+  "icon": "hollowmancy:seal_of_unmaking",
+  "category": "hollowmancy:hollow",
+  "sortnum": 9,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Circle believed the silence here was emptiness. It was not empty. It was $(l)listening$().$(br2)Vael, the Colossus, Morvane: each was something the Listener took and kept. Bring back a piece of each, and you can call the Listener itself.",
+      "title": "The Listener"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)The $(l)Hollow Sovereign$() drops a $(l)Sovereign's Sigil$()$(li)The $(l)Amethyst Colossus$() drops a $(l)Colossus Heart$()$(li)$(l)Morvane$() drops $(l)Morvane's Oath$()$(br2)Bind the three with three $(l)Echo Shards$() to make the $(l)Seal of Unmaking$().",
+      "title": "Three Trophies"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:seal_of_unmaking"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Unmaking",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "O": "minecraft:crying_obsidian",
+          "M": "minecraft:amethyst_block",
+          "V": "hollowmancy:voidstone_ore",
+          "G": "minecraft:gold_block"
+        },
+        "pattern": [
+          [
+            "    G    ",
+            " V  M  V ",
+            "  O C O  ",
+            "         ",
+            "GMC 0 CMG",
+            "         ",
+            "  O C O  ",
+            " V  M  V ",
+            "    G    "
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Only in the Hollow, at Ascension, with 300 mana. Offer the Seal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)It flies, and hurls $(l)skulls$(). Below half strength, arrows will not touch it.$(li)It drags you into the dark.$(li)Wounded, it rains $(l)void$() from above (move when the air shimmers) and calls the echoes of its servants.$(li)At the end it $(l)drinks your mana$() and $(l)unmakes$(): a lance that corrupts.$(br2)$(l)Reflect$() is a fine answer to the skulls.",
+      "title": "The Fight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Silence it, and the story ends.$(br2)You become an $(l)Archmage$(): the seventh stage, with 100 more mana and tier IV spells. Your corruption is washed away.$(br2)And the world will still be there afterward. So will your magic.",
+      "title": "After"
+    }
+  ]
+}

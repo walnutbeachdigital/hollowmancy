@@ -1,0 +1,61 @@
+{
+  "name": "Familiars",
+  "icon": "minecraft:feather",
+  "category": "hollowmancy:rituals",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Familiars",
+      "text": "A mage need not walk alone. The $(l)Ritual of Binding$() calls a familiar: a small companion that follows you, cannot be harmed, and grows stronger the longer you are together.$(br2)You may keep $(l)one$() at a time."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Binding",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M C M",
+            "     ",
+            "C 0 C",
+            "     ",
+            "M C M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Apprentice, 50 mana. The offering chooses the familiar: a $(item)Feather$(), $(item)Glowstone Dust$(), or an $(item)Iron Block$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Owl",
+      "text": "$(l)Feather.$() It sees for you.$(li)Night Vision$(li)Level 2+: monsters nearby glow, further each level$(li)Level 4+: it catches you when you fall"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Wisp",
+      "text": "$(l)Glowstone Dust.$() A spark of pure mana.$(li)Refills your mana: +1 every 2 seconds, rising to +3$(li)Level 4+: slowly washes away corruption"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Golem",
+      "text": "$(l)Iron Block.$() Amethyst and stone, and loyal.$(li)Fights whatever hurts you, or whatever you attack. Its blows grow heavier each level$(li)Level 3+: Resistance while it's near$(li)Level 5: its blows slow enemies"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Bond",
+      "text": "Bond grows by $(l)1 for every minute$() together and $(l)2 for every monster$() you defeat side by side. Levels come at 10, 30, 60 and 100.$(br2)$(li)$(l)Right-click$(): stay or follow, and see its level$(li)$(l)Sneak-right-click$(): release it$(br2)Each familiar remembers its bond, so you can switch between them freely. It follows you through death, sleep and other worlds."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What They Do For You",
+      "text": "$(l)Owl:$() hoots when a monster closes in, and tells you what it is, which way, and how far.$(br2)$(l)Wisp:$() carries light with it wherever the sky is dark: caves, night, the Hollow.$(br2)$(l)Golem:$() picks up items lying near you and brings them over. It leaves alone anything you threw yourself."
+    }
+  ],
+  "advancement": "hollowmancy:apprentice"
+}

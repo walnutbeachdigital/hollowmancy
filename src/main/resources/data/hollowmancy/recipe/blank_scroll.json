@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "hollowmancy:dull_shard"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:blank_scroll",
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "hollowmancy:dull_shard"
+    },
+    "title": "The Awakening",
+    "description": "Hold a Dull Shard beneath a thunderstorm",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/amethyst_block.png"
+  },
+  "criteria": {
+    "reached": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ]
+}

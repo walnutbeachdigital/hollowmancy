@@ -1,0 +1,24 @@
+{
+  "parent": "hollowmancy:archmage",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:echo_heart"
+    },
+    "title": "An Echo of an Echo",
+    "description": "Silence the Echo of the Listener",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "silenced": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "silenced"
+    ]
+  ]
+}

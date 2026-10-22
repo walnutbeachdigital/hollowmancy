@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "hollowmancy:hollow_planks"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:hollow_trapdoor",
+    "count": 2
+  },
+  "group": "wooden_trapdoor"
+}

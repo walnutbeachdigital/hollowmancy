@@ -1,0 +1,24 @@
+{
+  "parent": "hollowmancy:apprentice",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:focus_wand"
+    },
+    "title": "Worn In",
+    "description": "Use a wand until it grows stronger",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "grown": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "grown"
+    ]
+  ]
+}

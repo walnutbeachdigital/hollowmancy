@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hollowmancy:rune_stone"
+    },
+    {
+      "item": "minecraft:end_rod"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:beam_rune",
+    "count": 1
+  }
+}

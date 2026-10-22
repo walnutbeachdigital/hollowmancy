@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "charge=0": {
+      "model": "hollowmancy:block/mana_battery_0"
+    },
+    "charge=1": {
+      "model": "hollowmancy:block/mana_battery_1"
+    },
+    "charge=2": {
+      "model": "hollowmancy:block/mana_battery_2"
+    },
+    "charge=3": {
+      "model": "hollowmancy:block/mana_battery_3"
+    },
+    "charge=4": {
+      "model": "hollowmancy:block/mana_battery_4"
+    }
+  }
+}

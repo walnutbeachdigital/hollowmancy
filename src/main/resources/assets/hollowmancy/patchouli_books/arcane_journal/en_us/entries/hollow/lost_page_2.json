@@ -1,0 +1,15 @@
+{
+  "name": "The Second Fragment",
+  "icon": "hollowmancy:lost_page",
+  "category": "hollowmancy:hollow",
+  "sortnum": 12,
+  "advancement": "hollowmancy:lost_page_2",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)...the towers were meant to be anchors, so the Hollow could not drift away from the world we knew.$(br2)We built them from the black stone because it held mana so well. We did not understand that it was $(l)drinking$() it.$(br2)Every tower we raised, the whispers grew louder.$()",
+      "title": "The Second Fragment"
+    }
+  ]
+}

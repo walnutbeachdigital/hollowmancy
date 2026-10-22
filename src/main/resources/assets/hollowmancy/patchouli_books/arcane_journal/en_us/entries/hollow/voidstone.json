@@ -1,0 +1,20 @@
+{
+  "name": "Voidstone",
+  "icon": "hollowmancy:voidstone_ore",
+  "category": "hollowmancy:hollow",
+  "sortnum": 1,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:voidstone_ore",
+      "title": "Voidstone",
+      "text": "Veins of black stone run through the Hollow's islands. Only a $(l)diamond pickaxe$() will break it.$(br2)It yields $(item)Void Shards$(). With $(l)Silk Touch$(), the ore itself can be carried out whole."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:void_shard",
+      "text": "Cold to the touch, and slightly heavier than it should be. The raw stuff of Forbidden artifacts."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "hollowmancy:hollow_planks"
+    }
+  ],
+  "result": {
+    "id": "hollowmancy:hollow_button",
+    "count": 1
+  }
+}

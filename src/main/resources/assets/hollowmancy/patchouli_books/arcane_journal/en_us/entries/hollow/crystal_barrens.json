@@ -1,0 +1,14 @@
+{
+  "name": "The Crystal Barrens",
+  "icon": "minecraft:amethyst_cluster",
+  "category": "hollowmancy:hollow",
+  "sortnum": 4,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Crystal Barrens",
+      "text": "Not all of the Hollow is ash. In some reaches the pale stone has grown $(l)crystal$(): spires of amethyst, clusters on every ledge, and geodes hanging alone in the dark.$(br2)The air hums there. Glimmerstone runs through the islands as it does at home, but Voidstone is scarce.$(br2)The Barrens and the ashen Hollow lie in great alternating reaches, each a few hundred blocks across."
+    }
+  ]
+}

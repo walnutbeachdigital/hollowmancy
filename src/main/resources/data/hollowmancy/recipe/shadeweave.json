@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "hollowmancy:shade_cloth"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:shadeweave",
+    "count": 1
+  }
+}

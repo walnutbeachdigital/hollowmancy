@@ -1,0 +1,40 @@
+{
+  "name": "Ritual of Ascension",
+  "icon": "minecraft:echo_shard",
+  "category": "hollowmancy:rituals",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Offering:$() Echo Shard$(br)$(l)Mana:$() 200$(br)$(l)Requires:$() 200 max mana$(br)$(l)Cost:$() 20 Knowledge$(br)$(l)Stage:$() Mastery$(br2)Something vast is waiting. $(l)Ascend$(), gain +50 maximum mana, and open the Forbidden school.",
+      "title": "Ritual of Ascension"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Ascension",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "G": "hollowmancy:glimmerstone_ore",
+          "M": "minecraft:amethyst_block",
+          "X": "minecraft:crying_obsidian"
+        },
+        "pattern": [
+          [
+            "X  G  X",
+            " M C M ",
+            "       ",
+            "GC 0 CG",
+            "       ",
+            " M C M ",
+            "X  G  X"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Lit candles two out on each side and Amethyst Blocks two out on each diagonal, as in Deepening. Then Glimmerstone Ore three out on each side, and Crying Obsidian three out on each diagonal."
+    }
+  ],
+  "advancement": "hollowmancy:mastery"
+}

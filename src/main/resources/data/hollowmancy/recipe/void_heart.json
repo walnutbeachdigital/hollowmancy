@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VVV",
+    "VEV",
+    "VVV"
+  ],
+  "key": {
+    "V": {
+      "item": "hollowmancy:void_shard"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:void_heart",
+    "count": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Hollow Bestiary",
+  "icon": "hollowmancy:wisp_essence",
+  "category": "hollowmancy:hollow",
+  "sortnum": 8,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nothing from the world above lives in the Hollow. What does live here is strange, mostly harmless, and worth knowing.$(br2)Their remains are $(l)materials$(): infuse them into $(l)Hollow Charms$() at the altar or in an Infuser."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:wisp",
+      "name": "Wisp",
+      "text": "A drifting mote of light, curious about you. Cyan in the open Hollow, violet in the Barrens, gold in the Grove.$(br)$(l)Drops:$() Wisp Essence.",
+      "scale": 2.0,
+      "offset": 0.3
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:crystal_moth",
+      "name": "Crystal Moth",
+      "text": "Wings of thin crystal. Flutters low over the Barrens and the Grove.$(br)$(l)Drops:$() Moth Wing Dust.",
+      "scale": 2.0,
+      "offset": 0.3
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:glimmerhorn",
+      "name": "Glimmerhorn",
+      "text": "A shy deer of the Grove with antlers of living crystal. Glow Berries draw it close, and two fed Glimmerhorns will breed.$(br)$(l)Drops:$() Antler Shards."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:mirror_minnow",
+      "name": "Mirror Minnow",
+      "text": "Silver fish that school in the Mirror Sea. They cannot be caught in a bucket.",
+      "scale": 2.2
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:hollow_shade",
+      "name": "Hollow Shade",
+      "text": "$(4)Hostile.$() A tall shadow that blinks closer when you keep your distance. Its touch dims your sight.$(br)$(l)Drops:$() Shade Cloth, Ender Pearls.",
+      "scale": 0.6
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:shardling",
+      "name": "Shardling",
+      "text": "$(4)Hostile.$() A stubborn golem of the Barrens. Arrows glance off its crystals: strike it up close.$(br)$(l)Drops:$() Amethyst.",
+      "scale": 1.1
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "hollowmancy:mirror_lurker",
+      "name": "Mirror Lurker",
+      "text": "$(4)Hostile.$() A glassy eel with a glowing lure. It only hunts those in the water, and flops helplessly on land.$(br)$(l)Drops:$() Lurker Scales.",
+      "scale": 0.9
+    }
+  ]
+}

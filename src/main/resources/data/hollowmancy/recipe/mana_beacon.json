@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "GGG",
+    "SCS",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "hollowmancy:mana_crystal"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:mana_beacon",
+    "count": 1
+  }
+}

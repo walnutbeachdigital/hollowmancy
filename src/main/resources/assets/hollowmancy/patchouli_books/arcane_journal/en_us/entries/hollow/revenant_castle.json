@@ -1,0 +1,43 @@
+{
+  "name": "The Revenant Castle",
+  "icon": "minecraft:golden_helmet",
+  "category": "hollowmancy:hollow",
+  "sortnum": 7,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Circle did not cross the veil alone. They brought a protector: $(l)Morvane$(), a king who had sworn to guard them until the last of them was safe.$(br2)None of them were. He is still keeping his oath.",
+      "title": "The Revenant Castle"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "His castle drifts on its own island: a curtain wall, four round towers, a gatehouse and a great keep.$(br2)Its gates are $(l)portcullises$(). Pull the $(l)lever$() on the ground beside one to raise it, and again to drop it. There is a lever on each side."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Ground:$() the great hall$(li)$(l)Upper floor:$() library and armory$(li)$(l)Top:$() the throne room$(li)$(l)Beneath:$() the dungeon, by a ladder before the hearth$(li)$(l)North-east tower:$() the Castellan",
+      "title": "Floor by Floor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sir Aldric, the Castellan$(), keeps Morvane's keys at the top of the north-east tower.$(li)His $(l)chain$() drags you to him$(li)His $(l)shield$() bashes you back, and turns most of an arrow aside$(li)At half strength he calls two Revenant Guard archers$(br2)He carries the $(l)Treasury Key$().",
+      "title": "The Castellan"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:treasury_key",
+      "text": "The treasury is a sealed vault behind the throne, walled in $(l)Warded Stone$() that nothing can break. Right-click its $(l)Vault Door$() with the key. Inside: netherite, diamonds, gold, and a Lost Page."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Morvane$() fights with his blade, not with spells.$(li)Too close, and he $(l)cleaves$()$(li)Too far, and he $(l)leaps$() and slams down$(li)Hurt him, and his guard rise$(li)At the end, rings of $(l)soul fire$() race across the floor. $(l)Jump$() them",
+      "title": "Morvane, the Revenant King"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:oathbreaker",
+      "text": "His blade: stronger than netherite, and every hit restores $(l)3 mana$(). Breaking his oath for the first time also brings back $(l)10 Knowledge$()."
+    }
+  ]
+}

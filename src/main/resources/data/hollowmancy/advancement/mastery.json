@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "hollowmancy:focus_wand"
+    },
+    "title": "Mastery",
+    "description": "Infuse your first artifact",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reached": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "reached"
+    ]
+  ],
+  "parent": "hollowmancy:arcane_arts"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "W W",
+    "WSW",
+    "WAW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_wool"
+    },
+    "S": {
+      "item": "hollowmancy:dull_shard"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:arcanist_robe",
+    "count": 1
+  }
+}

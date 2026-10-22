@@ -1,0 +1,55 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "hollowmancy:item/spellbook_f0"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "hollowmancy:item/spellbook_inventory"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "hollowmancy:open": 0.071
+      },
+      "model": "hollowmancy:item/spellbook_f1_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.214
+      },
+      "model": "hollowmancy:item/spellbook_f2_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.357
+      },
+      "model": "hollowmancy:item/spellbook_f3_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.5
+      },
+      "model": "hollowmancy:item/spellbook_f4_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.643
+      },
+      "model": "hollowmancy:item/spellbook_f5_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.786
+      },
+      "model": "hollowmancy:item/spellbook_f6_held"
+    },
+    {
+      "predicate": {
+        "hollowmancy:open": 0.929
+      },
+      "model": "hollowmancy:item/spellbook_f7_held"
+    }
+  ]
+}

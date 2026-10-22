@@ -1,0 +1,19 @@
+{
+  "name": "Wand Mastery",
+  "icon": "hollowmancy:focus_wand",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 4,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A wand learns its wielder. Every spell you cast while holding one counts toward its $(l)mastery$(), and the wand remembers, whoever holds it next.$(br2)At each milestone it takes a new name and a new look, and the spells you cast through it grow a little cheaper and quicker to recharge.",
+      "title": "Wands That Grow"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)Attuned$(): 40 casts$(li)$(l)Resonant$(): 120$(li)$(l)Empowered$(): 300$(li)$(l)Ascendant$(): 600$(li)$(l)Mythic$(): 1,000$(br2)Each level: spells cost $(l)2%$() less mana and recharge $(l)3%$() faster (10% and 15% at Mythic). All three wands grow this way.",
+      "title": "Milestones"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "hollowmancy:glimmerstone_ore",
+    "hollowmancy:ritual_altar",
+    "hollowmancy:voidstone_ore",
+    "hollowmancy:verdant_engine",
+    "hollowmancy:research_engine",
+    "hollowmancy:mana_beacon",
+    "hollowmancy:infuser",
+    "hollowmancy:portcullis",
+    "hollowmancy:crystal_lamp",
+    "hollowmancy:wisp_lantern",
+    "hollowmancy:lurker_scale_tiles",
+    "hollowmancy:lurker_scale_tile_slab",
+    "hollowmancy:lurker_scale_tile_stairs"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Nature",
+  "icon": "minecraft:oak_sapling",
+  "category": "hollowmancy:spells",
+  "sortnum": 2,
+  "advancement": "hollowmancy:arcane_arts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Nature",
+      "text": "The oldest school, and the gentlest. Nature magic does not command the world; it $(l)encourages$() it.$(br2)Like the other schools, it must be opened in the Spellbook for $(l)5 Knowledge$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Verdant Growth$() (25 mana)$(br)Crops, saplings and flowers nearby surge with life.$(br2)$(l)Wellspring$() (40 mana)$(br)Heals every friend around you: players, animals, pets and villagers. You mend a little too.$(br2)$(l)Call of the Wild$() (70 mana, Mastery)$(br)Spirit wolves answer your call and fight beside you, then fade."
+    }
+  ]
+}

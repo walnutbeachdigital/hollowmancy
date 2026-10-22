@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "hollowmancy:lurker_scale_tiles"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:lurker_scale_tile_slab",
+    "count": 6
+  }
+}

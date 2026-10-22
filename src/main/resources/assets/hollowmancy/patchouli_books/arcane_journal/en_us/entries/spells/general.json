@@ -1,0 +1,14 @@
+{
+  "name": "General Spells",
+  "icon": "minecraft:book",
+  "category": "hollowmancy:spells",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Spark$() (10 mana): a crackling bolt that strikes the first creature in its path. Known upon awakening.$(br2)$(l)Mend$() (30 mana, 2 Knowledge): restores 3 hearts. Apprentice.$(br2)$(l)Blink$() (25 mana, 3 Knowledge): step up to 8 blocks to where you look. Apprentice.",
+      "title": "General Spells"
+    }
+  ],
+  "advancement": "hollowmancy:awakening"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Beyond the Veil",
+  "icon": "minecraft:end_stone",
+  "category": "hollowmancy:hollow",
+  "sortnum": 0,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Veil Step$() tears a door into the Hollow: islands of pale stone adrift in a lightless sky, where ash falls forever and the Shades walk.$(br2)Nothing there was made for you. Some of it was made $(l)before$() you.",
+      "title": "Beyond the Veil"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Bring light. The Hollow has none of its own.$(li)Bring a way home. Veil Step works in both directions; so does $(l)Recall$().$(li)Mind the edges. The void below does not give back what it takes."
+    }
+  ]
+}

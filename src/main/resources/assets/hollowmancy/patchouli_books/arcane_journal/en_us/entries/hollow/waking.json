@@ -1,0 +1,50 @@
+{
+  "name": "The Ritual of Waking",
+  "icon": "hollowmancy:void_heart",
+  "category": "hollowmancy:hollow",
+  "sortnum": 20,
+  "advancement": "hollowmancy:lost_page_4",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The final fragment told you how. You will need:$(li)a $(l)Void Heart$(): eight Void Shards bound around an Echo Shard$(li)an altar raised $(l)in the Hollow$()$(li)$(l)eight Voidstone Ore$(), carried out whole with Silk Touch$(li)200 mana, and the will to finish it",
+      "title": "The Ritual of Waking"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:void_heart",
+      "text": "Cold. Heavy. Something inside it beats, very slowly."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Waking",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "V": "hollowmancy:voidstone_ore",
+          "X": "minecraft:crying_obsidian"
+        },
+        "pattern": [
+          [
+            "X  V  X",
+            " V C V ",
+            "       ",
+            "VC 0 CV",
+            "       ",
+            " V C V ",
+            "X  V  X"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Build it on solid ground, with room to fight. Offer the Void Heart."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)He grows more desperate as he weakens.$(li)His touch $(l)corrupts$(). Do not let him close.$(li)Bring a way to cleanse yourself, and a way home.$(li)Build your arena on a wide island. The void will not save you, or him.",
+      "title": "What the Circle Knew"
+    }
+  ]
+}

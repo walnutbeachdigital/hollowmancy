@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "hollowmancy:hollow_planks"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:hollow_slab",
+    "count": 6
+  },
+  "group": "wooden_slab"
+}

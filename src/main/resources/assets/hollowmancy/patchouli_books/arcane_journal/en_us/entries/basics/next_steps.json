@@ -1,0 +1,56 @@
+{
+  "name": "What Comes Next",
+  "icon": "minecraft:compass",
+  "category": "hollowmancy:basics",
+  "sortnum": -1,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This page grows as you do. Whatever you have reached, the next step is written at the end.$(br2)$(l)Now:$() find $(l)Glimmerstone$() between the surface and the deepslate, mine a $(item)Dull Shard$(), and stand under open sky in a $(l)thunderstorm$() with it in hand.",
+      "title": "Your Path"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)You are Awakened.$()$(br2)Build a $(l)Research Table$() and study there: four Dull Shards and 50 mana each time. Your first study makes you an $(l)Apprentice$().$(br2)Hold G to open the spell wheel.",
+      "title": "Next: Apprentice",
+      "advancement": "hollowmancy:awakening"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)You are an Apprentice.$()$(br2)Build a $(l)Ritual Altar$(). The Rituals of $(l)Insight$() and $(l)Deepening$() help you gather Knowledge and mana.$(br2)When you have 10 Knowledge, offer an $(item)Amethyst Shard$() in the $(l)Ritual of the Threshold$() to enter the Arcane Arts.",
+      "title": "Next: The Arcane Arts",
+      "advancement": "hollowmancy:apprentice"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)You practise the Arcane Arts.$()$(br2)Open a school of magic in your Spellbook.$(br2)Then make your first artifact: offer a $(item)Blaze Rod$() at the altar to infuse a $(l)Focus Wand$(). Making anything by infusion proves your $(l)Mastery$().",
+      "title": "Next: Mastery",
+      "advancement": "hollowmancy:arcane_arts"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)You have Mastery.$()$(br2)Grow to $(l)200 maximum mana$() and $(l)20 Knowledge$(), then offer an $(item)Echo Shard$() in the $(l)Ritual of Ascension$().$(br2)Meanwhile: batteries, conduits and the Infuser let your machines work while you don't.",
+      "title": "Next: Ascension",
+      "advancement": "hollowmancy:mastery"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)You have Ascended.$()$(br2)The $(l)Forbidden$() school is open, and $(l)Veil Step$() can carry you into $(l)the Hollow$().$(br2)Hunt its creatures for their materials (see the $(l)Hollow Bestiary$()) and infuse $(l)Hollow Charms$() from them.",
+      "title": "Beyond",
+      "advancement": "hollowmancy:ascension"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Next: Archmage",
+      "advancement": "hollowmancy:ascension",
+      "text": "The last step: craft the $(l)Seal of Unmaking$(), then perform the $(l)Ritual of Unmaking$() in the Hollow itself.$(br2)What answers is the source of the Hollow. $(l)Silence the Listener$() and you become $(l)Archmage$(): +100 maximum mana, your corruption washed away, and every spell able to reach $(l)tier IV$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Archmage",
+      "advancement": "hollowmancy:archmage",
+      "text": "$(l)You are Archmage.$() There is no stage beyond this one.$(br2)What is left is mastery: tier IV for every spell, wands grown to $(l)Mythic$(), every charm, every upgraded garment, and the quiet places of the Hollow still unexplored."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "parent": "hollowmancy:apprentice",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:torn_page"
+    },
+    "title": "Duel of Wizards",
+    "description": "Defeat a wizard in their tower",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tower_wizard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "hollowmancy:tower_wizard"
+            }
+          }
+        ]
+      }
+    },
+    "fire_wizard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "hollowmancy:fire_wizard"
+            }
+          }
+        ]
+      }
+    },
+    "frost_wizard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "hollowmancy:frost_wizard"
+            }
+          }
+        ]
+      }
+    },
+    "void_wizard": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "hollowmancy:void_wizard"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tower_wizard",
+      "fire_wizard",
+      "frost_wizard",
+      "void_wizard"
+    ]
+  ]
+}

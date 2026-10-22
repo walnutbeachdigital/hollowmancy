@@ -1,0 +1,54 @@
+{
+  "name": "The Amethyst Colossus",
+  "icon": "hollowmancy:resonant_core",
+  "category": "hollowmancy:hollow",
+  "sortnum": 22,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Amethyst Colossus",
+      "text": "The Barrens hum because something in them is still singing. Gather enough crystal in one place, strike the right note, and the song takes shape: a giant of living amethyst.$(br2)It does not hate you. It simply does not stop."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:resonant_core",
+      "text": "A Resonant Core: the note that calls it."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ritual of Resonance",
+      "multiblock": {
+        "mapping": {
+          "0": "hollowmancy:ritual_altar",
+          "C": "minecraft:candle[lit=true]",
+          "M": "minecraft:amethyst_block"
+        },
+        "pattern": [
+          [
+            "M  M  M",
+            " M C M ",
+            "       ",
+            "MC 0 CM",
+            "       ",
+            " M C M ",
+            "M  M  M"
+          ]
+        ]
+      },
+      "enable_visualize": true,
+      "text": "Candles on each side, and Amethyst Blocks everywhere else: two out on each diagonal, three out on each side and each diagonal."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fighting It",
+      "text": "$(li)$(l)Arrows glance off its crystal.$() Magic, and lightning above all, cuts deep.$(li)It fires crystal lances, and its resonance pulse throws everything near it back.$(li)When it is wounded, the ground $(l)erupts$() beneath you. Move when it glows.$(li)Near the end it hardens into a shield. Wait it out."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:resonant_prism",
+      "title": "The Resonant Prism",
+      "text": "What remains of its heart. Held in your $(l)other hand$(), your spells recharge $(l)25% faster$().$(br2)The first time you silence the Colossus, its song settles in you: $(l)+100 maximum mana$(), forever."
+    }
+  ]
+}

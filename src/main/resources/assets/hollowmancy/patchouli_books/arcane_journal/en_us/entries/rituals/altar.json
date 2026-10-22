@@ -1,0 +1,19 @@
+{
+  "name": "The Ritual Altar",
+  "icon": "hollowmancy:ritual_altar",
+  "category": "hollowmancy:rituals",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Build the pattern around the altar, at the altar's own height. Then right-click the altar while holding the ritual's $(l)offering$().$(br2)If the pattern is incomplete, $(l)smoke$() rises where something is missing. Candles must be $(l)lit$(); they go out when a ritual completes.",
+      "title": "Rituals"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:ritual_altar",
+      "text": "Right-click the altar with an empty hand to recall the rituals you know."
+    }
+  ],
+  "advancement": "hollowmancy:apprentice"
+}

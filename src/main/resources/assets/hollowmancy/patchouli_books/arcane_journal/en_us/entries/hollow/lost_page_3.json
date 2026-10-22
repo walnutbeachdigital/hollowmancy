@@ -1,0 +1,15 @@
+{
+  "name": "The Third Fragment",
+  "icon": "hollowmancy:lost_page",
+  "category": "hollowmancy:hollow",
+  "sortnum": 13,
+  "advancement": "hollowmancy:lost_page_3",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)...the whispers took Ilsa first, then Corran. Our master, $(l)Vael$(), said he would carry what we could not.$(br2)He drew the corruption out of every one of us and into himself.$(br2)He did not die. I wish he had. He grew quiet, and then he grew $(l)vast$(), and the Hollow grew quiet with him.$()",
+      "title": "The Third Fragment"
+    }
+  ]
+}

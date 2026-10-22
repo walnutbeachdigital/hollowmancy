@@ -1,0 +1,24 @@
+{
+  "parent": "hollowmancy:ascension",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:seal_of_unmaking"
+    },
+    "title": "Archmage",
+    "description": "Silence the Listener, the source of the Hollow",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unmade": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "unmade"
+    ]
+  ]
+}

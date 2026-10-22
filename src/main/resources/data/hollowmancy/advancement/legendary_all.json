@@ -1,0 +1,54 @@
+{
+  "parent": "hollowmancy:legendary_form",
+  "display": {
+    "icon": {
+      "id": "hollowmancy:archmage_staff"
+    },
+    "title": "Every Legend Told",
+    "description": "Cast all six legendary spells",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "spark": {
+      "trigger": "minecraft:impossible"
+    },
+    "firebolt": {
+      "trigger": "minecraft:impossible"
+    },
+    "aegis": {
+      "trigger": "minecraft:impossible"
+    },
+    "reveal": {
+      "trigger": "minecraft:impossible"
+    },
+    "wellspring": {
+      "trigger": "minecraft:impossible"
+    },
+    "void_lance": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "spark"
+    ],
+    [
+      "firebolt"
+    ],
+    [
+      "aegis"
+    ],
+    [
+      "reveal"
+    ],
+    [
+      "wellspring"
+    ],
+    [
+      "void_lance"
+    ]
+  ]
+}

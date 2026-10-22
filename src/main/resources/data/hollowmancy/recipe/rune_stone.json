@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SDS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "D": {
+      "item": "hollowmancy:dull_shard"
+    }
+  },
+  "result": {
+    "id": "hollowmancy:rune_stone",
+    "count": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "The Hollow Grove",
+  "icon": "hollowmancy:hollow_sapling",
+  "category": "hollowmancy:hollow",
+  "sortnum": 6,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Hollow Grove",
+      "text": "Somewhere in the Hollow, life took root anyway. Violet moss creeps over the pale stone, and crooked $(l)Hollow Trees$() lift flat, glowing canopies into the dark.$(br2)Spores drift in the air. It is the only place here that feels almost kind."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hollowmancy:hollow_sapling",
+      "text": "Hollow Trees drop $(l)saplings$() that grow on Hollow Grass, dirt or grass, in any world.$(br2)The Hollow is too dark for them to grow alone: use $(l)bone meal$() or $(l)Verdant Growth$(), or give them torchlight."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hollow Grass$() spreads slowly across nearby End stone, and fades back to stone if covered. Break it and you get End stone; use $(l)Silk Touch$() to carry the grass itself.$(br2)$(l)Hollow Logs$() become $(l)Hollow Planks$(), which work in any recipe that takes planks."
+    }
+  ]
+}

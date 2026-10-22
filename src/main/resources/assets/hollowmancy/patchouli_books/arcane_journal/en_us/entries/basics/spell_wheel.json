@@ -1,0 +1,19 @@
+{
+  "name": "The Spell Wheel",
+  "icon": "minecraft:compass",
+  "category": "hollowmancy:basics",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Spell Wheel",
+      "text": "Hold $(k:key.hollowmancy.cycle_spell) to open the wheel.$(br2)The $(l)inner ring$() holds your schools of magic. Point at one, and its spells fill the $(l)outer ring$(). Move outward onto a spell and let go.$(br2)Tap the key instead to keep the wheel open, then click. Scroll to step through spells; hold Shift to step through schools."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quick Slots",
+      "text": "While pointing at a spell in the wheel, press $(l)1$() to $(l)5$() to place it in a quick slot. Press the same number again to clear it.$(br2)Then $(k:key.hollowmancy.spell_slot_1) through $(k:key.hollowmancy.spell_slot_5) cast those spells at once, without changing the spell you have selected. Your slots sit above the mana bar."
+    }
+  ],
+  "advancement": "hollowmancy:awakening"
+}

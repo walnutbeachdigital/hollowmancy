@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "hollowmancy:block/wisp_lantern"
+    },
+    "hanging=true": {
+      "model": "hollowmancy:block/wisp_lantern_hanging"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hollowmancy:item/treasury_key"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        -150
+      ],
+      "translation": [
+        1.13,
+        2.6,
+        1.13
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        150
+      ],
+      "translation": [
+        1.13,
+        2.6,
+        1.13
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "The Path",
+  "icon": "minecraft:experience_bottle",
+  "category": "hollowmancy:basics",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l)The Mundane$(): unaware$(li)$(l)The Awakening$(): a storm and a shard$(li)$(l)Apprentice$(): study at the Research Table$(li)$(l)The Arcane Arts$(): the Ritual of the Threshold$(li)$(l)Mastery$(): infuse your first artifact$(li)$(l)Ascension$(): the Ritual of Ascension$(li)$(l)Archmage$(): silence the Listener",
+      "title": "The Seven Stages"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An $(l)Archmage$() has walked the whole path. They gain $(l)100 max mana$(), and may raise any spell to $(l)tier IV$() in the Spellbook: 45% cheaper and 55% faster to recharge than its first form, for 12 Knowledge.",
+      "title": "Archmage"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cultist Shrines",
+  "icon": "minecraft:soul_lantern",
+  "category": "hollowmancy:hollow",
+  "sortnum": 5,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Cultist Shrines",
+      "text": "In the ashen reaches, Cultists gather on dark platforms lit by soul fire. Three always keep watch.$(br2)Look closely at what they have built around the old altar: Voidstone, crying obsidian, candles waiting to be lit.$(br2)They have been building the $(l)Ritual of Waking$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Everything the ritual needs is already in place, save the candlelight and the $(l)Void Heart$().$(br2)Their supply chest often holds a $(item)Lost Page$(), and sometimes an $(item)Echo Shard$().$(br2)$(o)Clear the platform before you finish their work. You will want the room.$()"
+    }
+  ]
+}

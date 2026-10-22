@@ -1,0 +1,37 @@
+{
+  "name": "Rewoven Garb",
+  "icon": "hollowmancy:wispwoven_hood",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 11,
+  "advancement": "hollowmancy:ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Arcanist's Garb can be rewoven with what the Hollow's creatures leave behind. Use a $(l)Smithing Table$(): the material goes in the first slot, the garment in the second, the extra in the third.$(br2)Each piece keeps its garb bonus, still counts toward the full set, keeps its enchantments, and gains something new."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "hollowmancy:wispwoven_hood",
+      "title": "Wispwoven Hood",
+      "text": "Wisp Essence + Arcanist's Hood + Glowstone Dust. You see in the dark."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "hollowmancy:shadeweave_robe",
+      "title": "Shadeweave Robe",
+      "text": "Shade Cloth + Arcanist's Robe + Ender Pearl. You vanish while sneaking."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "hollowmancy:lurkerscale_leggings",
+      "title": "Lurkerscale Leggings",
+      "text": "Lurker Scale + Arcanist's Leggings + Prismarine Shard. Breathe and swim freely underwater."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "hollowmancy:mothsilk_boots",
+      "title": "Mothsilk Boots",
+      "text": "Moth Wing Dust + Arcanist's Boots + Antler Shard. You jump higher and never take fall damage."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "hollowmancy:moth_dust"
+  },
+  "base": {
+    "item": "hollowmancy:arcanist_boots"
+  },
+  "addition": {
+    "item": "hollowmancy:antler_shard"
+  },
+  "result": {
+    "id": "hollowmancy:mothsilk_boots",
+    "count": 1
+  }
+}

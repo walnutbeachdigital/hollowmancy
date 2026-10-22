@@ -1,0 +1,28 @@
+{
+  "name": "The Infuser",
+  "icon": "hollowmancy:infuser",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 23,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Infuser",
+      "text": "An altar that remembers its patterns. It performs any $(l)Infusion$() on its own: no candles, no circle, no waiting at its side.$(br2)Give it the offering (right-click, or a hopper from above or the side) and feed it mana from a $(l)Mana Battery$(). It takes the same mana the ritual would, and ten seconds of work."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hollowmancy:infuser"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Using It",
+      "text": "$(li)Right-click with an empty hand to take the finished item, or pull it out with a hopper $(l)underneath$().$(li)It is $(l)attuned$() to whoever placed it, and will only perform infusions that person could. Sneak-right-click to attune it to yourself.$(li)Fusions need two hands, so they stay at the altar.$(li)Breaking it drops everything inside."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Note",
+      "text": "The Infuser can make what you already know how to make. It cannot teach you anything.$(br2)Your $(l)first$() artifact must still be made at the altar, by your own hand, to reach $(l)Mastery$()."
+    }
+  ]
+}

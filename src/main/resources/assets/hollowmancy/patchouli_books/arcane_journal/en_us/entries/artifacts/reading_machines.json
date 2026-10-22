@@ -1,0 +1,19 @@
+{
+  "name": "Reading the Machines",
+  "icon": "hollowmancy:infuser",
+  "category": "hollowmancy:artifacts",
+  "sortnum": 24,
+  "advancement": "hollowmancy:mastery",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Stand near an $(l)Infuser$() and a small display rises above it: the offering turning, a ring of mana filling as the infusion runs, and what it is waiting for when it stops.",
+      "title": "The Infuser's Display"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Whenever a machine draws from a battery, a pulse of light runs from the battery through the conduits to it. No pulses means no mana is moving: check the batteries are charged and every conduit touches the next.$(br2)The $(l)Research Table$() shows your mana against the cost of study, and a pip for each shard it needs.",
+      "title": "Mana in Motion"
+    }
+  ]
+}
