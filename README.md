@@ -31,7 +31,10 @@ Install it on both the client and the server.
 
 ## Download
 
-Hollowmancy 1.0.0 is in review on Modrinth and CurseForge. Links will be added here when it is live.
+- **CurseForge:** [curseforge.com/minecraft/mc-mods/hollowmancy](https://www.curseforge.com/minecraft/mc-mods/hollowmancy)
+- **Modrinth:** coming soon
+
+Install it with the CurseForge app, or download the jar and put it in your `mods` folder along with Patchouli.
 
 ## Reporting bugs
 
